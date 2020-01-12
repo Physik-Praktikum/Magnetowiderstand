@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.3.21)  12 JAN 2020 11:41
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.3.21)  12 JAN 2020 14:16
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2681,35 +2681,63 @@ Package babel Info: Redefining ngerman shorthand "~
 <Probe1_Drehung.png, id=247, 1107.8991pt x 586.1097pt>
 File: Probe1_Drehung.png Graphic file (type png)
 <use Probe1_Drehung.png>
-Package pdftex.def Info: Probe1_Drehung.png  used on input line 416.
+Package pdftex.def Info: Probe1_Drehung.png  used on input line 427.
 (pdftex.def)             Requested size: 418.25555pt x 221.26624pt.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 441.
 
-Underfull \hbox (badness 10000) in paragraph at lines 413--441
+Underfull \hbox (badness 10000) in paragraph at lines 424--431
 
  []
 
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 441.
+(babel)             in language  on input line 431.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 441.
+(babel)             in language  on input line 431.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 441.
+(babel)             in language  on input line 431.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 441.
+(babel)             in language  on input line 431.
 [22 <./Probe1_Drehung.png>]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 441.
+Overfull \hbox (9.14606pt too wide) detected at line 431
+\OML/cmm/m/it/10.95 R\OT1/cmr/m/n/10.95 (\OML/cmm/m/it/10.95 \OT1/cmr/m/n/10.9
+5 ) = \OML/cmm/m/it/10.95 R[] \OMS/cmsy/m/n/10.95 ^^@ \OT1/cmr/m/n/10.95 (\OML/
+cmm/m/it/10.95 R[] \OMS/cmsy/m/n/10.95 ^^@ \OML/cmm/m/it/10.95 R[]\OT1/cmr/m/n/
+10.95 ) [][] \OML/cmm/m/it/10.95  \OT1/cmr/m/n/10.95 = \OML/cmm/m/it/10.95 R[]
+ [] \OT1/cmr/m/n/10.95 = \OML/cmm/m/it/10.95 R[] []
+ []
+
+<Probe1_Drehung_vs_Erwartung.png, id=255, 1107.8991pt x 586.1097pt>
+File: Probe1_Drehung_vs_Erwartung.png Graphic file (type png)
+<use Probe1_Drehung_vs_Erwartung.png>
+Package pdftex.def Info: Probe1_Drehung_vs_Erwartung.png  used on input line 43
+4.
+(pdftex.def)             Requested size: 418.25555pt x 221.26624pt.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 459.
+
+Underfull \hbox (badness 10000) in paragraph at lines 431--459
+
+ []
+
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 459.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 459.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 459.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 459.
+[23 <./Probe1_Drehung_vs_Erwartung.png>]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 459.
  (./MR.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 441.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 441.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 459.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 459.
 Package rerunfilecheck Info: File `MR.out' has not changed.
 (rerunfilecheck)             Checksum: 84F7DD50944DCCB52DC3C208CD83A56B;1367.
  ) 
 Here is how much of TeX's memory you used:
- 23526 strings out of 492982
- 435236 string characters out of 6134896
+ 23534 strings out of 492982
+ 435450 string characters out of 6134896
  597596 words of memory out of 5000000
- 26779 multiletter control sequences out of 15000+600000
+ 26783 multiletter control sequences out of 15000+600000
  550786 words of font info for 81 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  41i,13n,51p,10416b,921s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2729,10 +2757,10 @@ are/texmf/fonts/type1/public/cm-super/sfsl1095.pfb></usr/share/texmf/fonts/type
 1/public/cm-super/sfsx1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sf
 sx1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsx1440.pfb></usr/sha
 re/texmf/fonts/type1/public/cm-super/sfsx2074.pfb>
-Output written on MR.pdf (22 pages, 1292227 bytes).
+Output written on MR.pdf (23 pages, 1382579 bytes).
 PDF statistics:
- 330 PDF objects out of 1000 (max. 8388607)
- 264 compressed objects within 3 object streams
- 72 named destinations out of 1000 (max. 500000)
- 192 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 340 PDF objects out of 1000 (max. 8388607)
+ 271 compressed objects within 3 object streams
+ 75 named destinations out of 1000 (max. 500000)
+ 197 words of extra memory for PDF output out of 10000 (max. 10000000)
 

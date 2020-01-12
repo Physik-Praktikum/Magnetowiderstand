@@ -381,7 +381,7 @@ Bei der Luftspule wird der zu erwartende lineare Zusammenhang sehr gut erfüllt;
 Größere Abweichungen bestehen bei der Spule mit Eisenkern. Auch hier ist der Anstieg bei den realen Messdaten kleiner als bei der theoretischen Berechnung, was an der Feldstreuung liegt. Obwohl die gemessenen Werte sehr gut auf einer Geraden liegen, gilt trotzdem nur ein affin-linearer Zusammenhang, weil der extrapolierte Wert \(B_0 = (-14.8 \pm 2.6) \ \mathrm{mT}\) signifikant von null verschieden ist. Eine Erklärung hierfür ist, dass Eisen ein ferromagnetisches Material ist: Da der Versuch bereits von vielen anderen Gruppen durchgeführt wurde, ist es durchaus denkbar, dass der Eisenkern bereits eine nicht-verschwindende Magnetisierung hat, die sich in der Messung bemerkbar macht. \\\\
 Insgesamt kann man sagen, dass die direkte Proportionalität zwischen magnetischer Flussdichte und Stromstärke sehr gut bestätigt werden konnte. Es gibt zwar messbare Abweichungen von theoretischen Werten; diese lassen sich aber schlüssig begründen.
 \subsection{Probe 1:}
-Für die erste Probe wurden Messungen für sieben verschiedene Winkel vorgenommen sowie ein Drehung simuliert. Bei der Winkelmessung wurde jeweils der elektrische Widerstand in Abhängigkeit vom Magnetfeld dargestellt. Für \(\vartheta\neq 0^{\circ},90^{\circ}\) ist in jedem Diagramm jeweils die Abhängigkeit in \(x\)- und \(y\)-Richtung für einen festen Winkel dargestellt. Da bei den Messungen längs der Koordinatenachsen (\(\vartheta = 0^{\circ},90^{\circ}\)) das Feld nur in einer Richtung variiert wird, gibt es hier für jeden Winkel nur ein Diagramm. Hier wurden daher die Messungen für  \(\vartheta = 0^{\circ}\) und \(\vartheta = 90^{\circ}\) gegenübergestellt. Die Winkelmessungen ergaben:
+Für die erste Probe wurden Messungen für sieben verschiedene Winkel vorgenommen sowie ein Drehung simuliert. Bei der Winkelmessung wurde jeweils der elektrische Widerstand in Abhängigkeit vom Magnetfeld dargestellt. Für \(\vartheta\neq 0^{\circ},90^{\circ}\) ist in jedem Diagramm jeweils die Abhängigkeit in \(x\)- und \(y\)-Richtung für einen festen Winkel dargestellt. Da bei den Messungen längs der Koordinatenachsen (\(\vartheta = 0^{\circ},90^{\circ}\)) das Feld nur in einer Richtung variiert wird, gibt es hier für jeden Winkel nur ein Diagramm. Hier wurden daher die Messungen für  \(\vartheta = 0^{\circ}\) und \(\vartheta = 90^{\circ}\) gegenübergestellt. Zur besseren Lesbarkeit sind Vorlauf und Rücklauf in zwei verschiedenen Farben dargestellt. Die Winkelmessungen ergaben:
 \newpage
 \begin{figure}[h!]\centering
 \includegraphics[width=\textwidth]{Probe1_0_und_90_Grad.png}
@@ -410,13 +410,31 @@ Für die erste Probe wurden Messungen für sieben verschiedene Winkel vorgenomme
 \caption{Probe 1: Messung für \(\vartheta=75^{\circ}\), Abhängigkeiten von den \(x\)- und \(y\)-Komponenten des \(\vec{B}\)-Feldes}
 \end{figure}
 \newpage  
-Hier geht es weiter.
-Bei der Simulation der Drehung wurde nach Programmierung des Sweeps der elektrische Widerstand als Funktion der Zeit gemessen. Die \(t_{\mathrm{Start}}\) und \(t_{\mathrm{End}}\) den Winkeln \(\vartheta = 0^{\circ}\) und \(\vartheta = 360^{\circ}\) entsprechen, kann man die Messzeit in Winkel umrechnen. Es sind beide Zusammenhänge dargestellt: \\\\
+Eine erste Möglichkeit zur Charakterisierung der Probe bietet das im Theorieteil besprochene Verhältnis \(\frac{\Delta R}{R}\), welches die Größe des magnetoresistiven Effektes beschreibt. Dieses wurde aus den verschiedenen Diagrammen numerisch mit Python ermittelt und nimmt für verschiedene Winkel folgende Werte an: \\
+\begin{table}[h!]\centering
+\begin{tabular}{|c|c|c|c|c|c|c|c|}
+\hline
+\(\vartheta / ^{\circ}\)  & 0 & 15 & 30 & 45 & 60 & 75 & 90 \\\hline
+\(\frac{\Delta R}{R} / \%\) Vorlauf & 2.92 & 0.79 & 0.98 & 2.96 & 0.73 & 0.57 & 3.00 \\\hline
+\(\frac{\Delta R}{R} / \%\) Rücklauf & 2.87 & 0.74 & 1.01 & 3.04 & 0.66 & 0.58 & 2.74 \\\hline
+\end{tabular}
+\end{table} \\
+Der relativ kleine Wert von nur wenigen Prozent ist typisch für eine AMR-Probe.
+Bei der Simulation der Drehung wurde nach Programmierung des Sweeps der elektrische Widerstand als Funktion der Zeit gemessen. Da die Zeiten \(t_{\mathrm{Start}}\) und \(t_{\mathrm{End}}\) den Winkeln \(\vartheta = 0^{\circ}\) und \(\vartheta = 360^{\circ}\) entsprechen, kann man die Messzeit gemäß 
+\[\vartheta(t) = 360^{\circ} \cdot \frac{t}{t_{\mathrm{End}}}\]
+in Winkel umrechnen. Es sind beide Zusammenhänge dargestellt: \\\\
 \begin{figure}[h!]\centering
 \includegraphics[width=\textwidth]{Probe1_Drehung.png}
 \caption{Probe 1: Simulation einer vollen Drehung durch lineare Sweeps}
 \end{figure}\\
-Hier geht es wieder weiter.
+Auch dieses Verhalten wird von einer AMR-Probe erwartet: Einerseits ist der anisotrope Magnetwiderstand periodisch bei einer Drehung um \(180^{\circ}\), was in der Grafik gut erfüllt wird. Andererseits ist der Widerstand maximal, wenn \(\vec{j}\) und \(\vec{B}\) parallel oder antiparallel sind und minimal, wenn \(\vec{j}\) und \(\vec{B}\) senkrecht aufeinander stehen. Dementsprechend erwartet man im Bereich \(\vartheta\in\left[0^{\circ},90^{\circ}\right]\) ein absolutes Maximum und ein absolutes Minimum, was ebenfalls erfüllt wird. Das Maximum wird bei \(\vartheta = 90^{\circ}\)  angenommen, d.h. der Winkel \(\alpha\) zwischen \(\vec{j}\) und \(\vec{B}\) ist dort gerade null. Damit ist \(\vartheta = \alpha + 90^{\circ}\). Dadurch kann nun der funktionale Zusammenhang überprüft werden, indem man
+\[R(\alpha) = R_{\parallel} - (R_{\parallel} - R_{\perp})\sin^2\alpha = R_{\parallel} \left(1 - \frac{R_{\parallel} - R_{\perp}}{R_{\parallel}}\sin^2\alpha\right) = R_{\mathrm{max}}\left[1 - \frac{\Delta R}{R}\sin^2\left(\vartheta - \frac{\pi}{2}\right)\right] \]
+aus dem Theorieteil verwendet. \\\\
+\begin{figure}[h!]\centering
+\includegraphics[width=\textwidth]{Probe1_Drehung_vs_Erwartung.png}
+\caption{Probe 1: Winkelabhängigkeit des AMR-Effekts, Vergleich zwischen Experiment unt theoretischer Erwartung}
+\end{figure} \\
+Trotz der relativ groben Näherung der Sinus- und Cosinusfunktionen bei der Simulation der Drehung wird der erwartete Zusammenhang \(R\sim\sin^2\alpha\) recht gut erfüllt.
  % Bibliographie/Literaturverzeichnis
 %    \begin{thebibliography}{9}
 %    \bibitem{gitterfehler}
