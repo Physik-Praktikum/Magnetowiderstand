@@ -45,7 +45,7 @@ separate-uncertainty,  % Unsicherheiten seperat angeben (mit ±)
 \newcommand*{\autor}{Tom Drechsler, Konstantin Schmid}
 \newcommand*{\abk}{MR}
 \newcommand*{\betreuer}{Richard Schlitz}
-\newcommand*{\messung}{19.12.2019}
+\newcommand*{\messung}{19. Dezember 2019}
 \newcommand*{\ort}{REC/D008}
 
 \hypersetup{pdfauthor={\autor}, pdftitle={\titel}}  % PDF-Metadaten setzen
@@ -89,7 +89,9 @@ separate-uncertainty,  % Unsicherheiten seperat angeben (mit ±)
 \setcounter{tocdepth}{4}
 
 
-
+\addto{\captionsngerman}{
+\renewcommand*{\figurename}{Abb.}
+}                   % Ändern der Grafikbeschriftung von "Abbildung:" zu "Abb.:"
 
 
 
@@ -231,8 +233,13 @@ Im ersten Teil wurden zwei gleichartige Spulen mit je \(N=300\) Windungen und je
 \begin{enumerate}
 \item Nullmessung ohne Feld: \(R_0 = (0.005 \pm 0.005) \ \Omega\) \\
 Die Unsicherheit wurde aufgrund der Schwankung des Messergebnisses abgeschätzt und bildet somit die Unsicherheit der übrigen Widerstandsmessungen.
-\item Messungen in der Spule für \(I = 1\hdots 4 \ \mathrm{A}\) in Schritten von \(\Delta I = 1 \  \mathrm{A}\) ohne Eisenkern:
-\begin{table}[h!]\centering
+\item Messungen in der Spule für \(I = 1\hdots 4 \ \mathrm{A}\) in Schritten von \(\Delta I = 1 \  \mathrm{A}\) ohne Eisenkern
+\item Messungen in der Spule für \(I = 1\hdots 4 \ \mathrm{A}\) in Schritten von \(\Delta I = 1 \  \mathrm{A}\) mit Eisenkern
+\end{enumerate}
+Dabei wurden folgende Messwerte aufgenommen: \\\\
+\begin{minipage}{0.45\textwidth}
+\underline{Luftspule:} \\\\
+%\begin{table}[h!]\centering
 \begin{tabular}{|c|c|c|}
 \hline
 \(I/ \mathrm{A}\) & \(U / \mathrm{V}\) & \((R \pm \Delta R )/ \Omega\) \\\hline
@@ -241,9 +248,11 @@ Die Unsicherheit wurde aufgrund der Schwankung des Messergebnisses abgeschätzt 
 3 & 5.09 & \((4.428 \pm 0.005)\) \\\hline
 4 & 6.66 & \((5.892 \pm 0.005)\) \\\hline
 \end{tabular}
-\end{table}
-\item Messungen in der Spule für \(I = 1\hdots 4 \ \mathrm{A}\) in Schritten von \(\Delta I = 1 \  \mathrm{A}\) mit Eisenkern:
-\begin{table}[h!]\centering
+%\end{table}
+\end{minipage}
+\begin{minipage}{0.45\textwidth}
+\underline{Spule mit Eisenkern:} \\\\
+%\begin{table}[h!]\centering
 \begin{tabular}{|c|c|c|}
 \hline
 \(I/ \mathrm{A}\) & \(U / \mathrm{V}\) & \((R \pm \Delta R )/ \Omega\)  \\\hline
@@ -252,66 +261,162 @@ Die Unsicherheit wurde aufgrund der Schwankung des Messergebnisses abgeschätzt 
 3 & 5.01 & \((57.676 \pm 0.005)\) \\\hline
 4 & 6.70 & \((79.116 \pm 0.005)\) \\\hline
 \end{tabular}
-\end{table}
-\end{enumerate}
+%\end{table}
+\end{minipage} \\\\
 Eine wesentliche Unsicherheit besteht vor allem darin, dass die Hall-Sonde exakt senkrecht in den Luftspalt gehalten werden muss, da eine Verkippung die effektive Fläche und insbesondere die Dicke des Materials senkrecht zum Feld verändert. Das ändert dann die Hall-Spannung und somit das angezeigte Ergebnis für \(B\). Um die Auswirkungen einer solchen Verkippung abzuschätzen, wurden zusätzlich die Ausdehnung des Luftspaltes und die Größe der Hall-Sonde vermessen:
 \[d_{\mathrm{Spalt}} = 7 \ \mathrm{mm} \quad\text{und}\quad d_{\mathrm{Sonde}} = 8 \ \mathrm{mm}\]
-\subsection{Anisotroper Magnetwiderstand}
-Die Probe zur Messung des AMR-Effektes soll in diesem Versuch normalerweise selbst präpariert werden. Unser Betreuer hat uns allerdings direkt eine fertig vorbereitete Probe zur Verfügung gestellt, sodass die Präparation entfiel. Es handelte sich um eine \(d=10 \ \mathrm{nm}\) dicke Schicht aus Permalloy, die mit Leitsilber auf eine Platine geklebt und an den Ecken mit vier dünnen Golddrähten leitend mit dieser verbunden wurde. Die Platine wurde in einen Sockel eingesetzt. Der Sockel wurde mit der Breakoutbox verbunden um den Widerstand messen zu können. \\\\
-Um den Sockel befanden sich vier identische Spulen, die entsprechend der folgenden Abbildung angeordnet waren:
-\[\text{Hier kommt noch ein Bild rein.}\]
-Zwei sich gegenüberliegende Spulen erzeugen dabei jeweils ein antiparalleles Magnetfeld. Falls durch alle vier Spulen der gleiche Strom fließt, verschwindet daher das Magnetfeld im Zentrum, wo sich der Sockel mit Probe befindet. Fließen jedoch durch zwei gegenüberliegende Spulen verschiedene Ströme, ergibt sich ein resultierendes Feld, das in Richtung des stärkeren Feldes zeigt. Da die Maxwell-Gleichungen linear sind, überlagern sich die Felder in \(x\)- und \(y\)-Richtung störungsfrei, sodass man das Magnetfeld in beiden Richtungen symmetrisch durch den Wert \(B=0\) fahren kann. Will man längs der \(x-Richtung\) symmetrisch durch null fahren, lässt man eine der Spulen konstant auf  \(I_1^{(x)}=2 \ \mathrm{A}\) und variiert in der anderen Spule die Stromstärke \(I_2^{(x)} = 0\hdots 4 \ \mathrm{A}\). Die beiden Spulen in \(y\)-Richtung bleiben konstant auf \(I_1^{(y)} = I_2^{(y)} = 2 \ \mathrm{A}\). Durch den Übergang zu Polarkoordinaten ist es möglich, Formeln für die Reichweiten von \(x\) und \(y\) bei einem symmetrischen Durchlauf durch \(B=0\) längs einer beliebig gedrehten Achse zu ermitteln. Diese lauten:
+\subsection{Versuchsaufbau, Messprogramm und durchgeführte Experimente}
+Die Probe zur Messung des AMR-Effektes soll in diesem Versuch normalerweise selbst präpariert werden. Unser Betreuer hat uns allerdings direkt eine fertig vorbereitete Probe zur Verfügung gestellt, sodass die Präparation entfiel. Es handelte sich um eine \(d=10 \ \mathrm{nm}\) dicke Schicht aus Permalloy, die mit Leitsilber auf eine Platine geklebt und an den Ecken mit vier dünnen Golddrähten leitend mit dieser verbunden wurde. Die Platine wurde in einen Sockel eingesetzt. Der Sockel wurde mit der Breakoutbox verbunden um den Widerstand messen zu können. Um den Sockel befanden sich vier identische Spulen, die entsprechend der folgenden Abbildung angeordnet waren: \\\\
+\begin{figure}[h!]\centering
+\includegraphics[width=\textwidth]{Versuchsaufbau.jpg}
+\caption{Experimenteller Aufbau zur Messung des GMR- und des AMR-Effekts: In der Mitte befindet sich die Probe in einem Sockel. Die vier Spulen erzeugen ein annähernd homogenes Magnetfeld, dass längs jeder Richtung symmetrisch um den Wert \(B=0\) eingestellt werden kann.}
+\end{figure} \\
+Zwei sich gegenüberliegende Spulen erzeugen dabei jeweils ein antiparalleles Magnetfeld. Falls durch alle vier Spulen der gleiche Strom fließt, verschwindet daher das Magnetfeld im Zentrum, wo sich der Sockel mit Probe befindet. Fließen jedoch durch zwei gegenüberliegende Spulen verschiedene Ströme, ergibt sich ein resultierendes Feld, das in Richtung des stärkeren Feldes zeigt. Da die Maxwell-Gleichungen linear sind, überlagern sich die Felder in \(x\)- und \(y\)-Richtung störungsfrei, sodass man das Magnetfeld in beiden Richtungen symmetrisch durch den Wert \(B=0\) fahren kann. Will man längs der \(x\)-Richtung symmetrisch durch null fahren, lässt man eine der Spulen konstant auf  \(I_1^{(x)}=2 \ \mathrm{A}\) und variiert in der anderen Spule die Stromstärke \(I_2^{(x)} = 0\hdots 4 \ \mathrm{A}\). Die beiden Spulen in \(y\)-Richtung bleiben konstant auf \(I_1^{(y)} = I_2^{(y)} = 2 \ \mathrm{A}\). Durch den Übergang zu Polarkoordinaten ist es möglich, Formeln für die Reichweiten von \(x\) und \(y\) bei einem symmetrischen Durchlauf durch \(B=0\) längs einer beliebig gedrehten Achse zu ermitteln. Diese lauten:
 \begin{align*}
 x_{\mathrm{Start}} = 2 - 2\cos\vartheta \quad , \quad x_{\mathrm{End}} = 2 + 2\cos\vartheta \\
 y_{\mathrm{Start}} = 2 - 2\sin\vartheta \quad , \quad y_{\mathrm{End}} = 2 + 2\sin\vartheta 
 \end{align*}
-Solche Intervalle für \(x\) und \(y\) wurden für verschiedene Winkel \(\vartheta\) berechnet:
+Solche Intervalle für \(x\) und \(y\) wurden für verschiedene Winkel \(\vartheta\) berechnet: \\\\
 \begin{table}[h!]
 \centering
 \begin{tabular}{|c|c|c|c|c|} \hline
 $\vartheta / ^{\circ}$ & $x_{\text{start}}$/A & $x_{\text{end}}$/A & $y_{\text{start}}$/A & $y_{\text{end}}$/A \\\hline
-0&0&4&2&2 \\\hline
-15&0.07&3.93&1.48&2.52 \\\hline
-30&0.27&3.73&1&3 \\\hline
-45&0.59&3.41&0.59&3.41 \\\hline
-60&1&3&0.27&3.73 \\\hline
-75&1.48&2.52&0.07&3.93 \\\hline
-90&2&2&0&4  \\\hline
+0  & 0.00 & 4.00 & 2.00 & 2.00 \\\hline
+15 & 0.07 & 3.93 & 1.48 & 2.52 \\\hline
+30 & 0.27 & 3.73 & 1.00 & 3.00 \\\hline
+45 & 0.59 & 3.41 & 0.59 & 3.41 \\\hline
+60 & 1.00 & 3.00 & 0.27 & 3.73 \\\hline
+75 & 1.48 & 2.52 & 0.07 & 3.93 \\\hline
+90 & 2.00 & 2.00 & 0.00 & 4.00  \\\hline
 \end{tabular}
-\caption{Verwendete Intervallgrenzen zur Erstellung der Sweeps für verschiedene Winkel \(\vartheta\)}
-\end{table}
-Anschließend wurdem mithilfe des Programms "matrixGui" Sweeps erstellt, also kleine Programme, die genau diese Intervalle in jeweils 101 Schritten durchlaufen. Die Sweeps wurden dann dem Messprogramm "matrixGui" übergeben, welches damit den Strom in den Spulen automatisch gemäß den Sweeps durchlaufen lässt und dabei die Messwerte aufnimmt.
+%\caption{Verwendete Intervallgrenzen zur Erstellung der Sweeps für verschiedene Winkel \(\vartheta\)}
+\end{table} \\\\
+Anschließend wurdem mithilfe des Programms "matrixGui" \ Sweeps erstellt, also kleine Programme, die genau diese Intervalle in jeweils 101 Schritten durchlaufen. Die Sweeps wurden dann dem Messprogramm "matrixGui" übergeben, welches damit den Strom in den Spulen automatisch gemäß den Sweeps durchlaufen lässt und dabei die Messwerte aufnimmt. \\\\
+Zusätzlich wurde eine Drehung simuliert, bei der Vektor \(\vec{B}\) der magnetischen Flussdichte betragsmäßig konstant bleibt, sich aber einmal im Bereich von \(0^{\circ}\) bis \(360^{\circ}\) dreht. Wenn \(\vartheta\) der Drehwinkel ist, kann man hierfür die Formeln für die Endwerte der Sweeps verwenden:
+\begin{align*}
+x(\vartheta) = 2 + 2\cos\vartheta \\
+y(\vartheta) = 2 + 2\sin\vartheta 
+\end{align*}
+Wählt man diese Werte für den Strom der Spulen, ergibt sich eine magnetische Flussdichte \(\vec{B}\) von konstantem Betrag, die in Richtung des Einheitsvektors \(\vec{e}_r = \cos\vartheta \vec{e}_x + \sin\vartheta \vec{e}_y\) zeigt. Das Problem ist hierbei, dass das Messprogramm nur lineare Sweeps erzeugen konnte, die Sinus- und Cosinusfunktionen aber nichtlinear sind. Anstatt alle Werte einzeln einzugeben, haben wir die trigonometrischen Funktionen durch Sägezahnkurven angenähert, wie in folgender Abbildung dargestellt: 
+\newpage
+\begin{figure}[h!]\centering
+\includegraphics[width=\textwidth]{Sinus_und_Cosinus_Naeherung.png}
+\caption{Näherung der trigonometrischen Funktionen durch Sägezahnkurven}
+\end{figure} 
+Die Sägezahnkurven lassen sich durch vier lineare Sweeps sehr einfach automatisch erstellen und bieten so zumindest eine gute Näherung für die praktisch nicht zugänglichen Sinus- und Cosinusfunktionen. Unter Berücksichtigung des Offsets und des Faktors 2 wurden dann folgende Sweeps generiert:
+\begin{itemize}
+\item 4 \(x\)-Sweeps zu jeweils 26 Werten, linear 
+\begin{enumerate}
+\item Sweep: \(x=4 \ \mathrm{A}\) bis \(x=2 \ \mathrm{A}\)
+\item Sweep: \(x=2 \ \mathrm{A}\) bis \(x=0 \ \mathrm{A}\)
+\item Sweep: \(x=0 \ \mathrm{A}\) bis \(x=2 \ \mathrm{A}\)
+\item Sweep: \(x=2 \ \mathrm{A}\) bis \(x=4 \ \mathrm{A}\)
+\end{enumerate}
+\item 4 \(y\)-Sweeps zu jeweils 26 Werten, linear 
+\begin{enumerate}
+\item Sweep: \(y=2 \ \mathrm{A}\) bis \(y=4 \ \mathrm{A}\)
+\item Sweep: \(y=4 \ \mathrm{A}\) bis \(y=2 \ \mathrm{A}\)
+\item Sweep: \(y=2 \ \mathrm{A}\) bis \(y=0 \ \mathrm{A}\)
+\item Sweep: \(y=0 \ \mathrm{A}\) bis \(y=2 \ \mathrm{A}\)
+\end{enumerate}
+\end{itemize}
+Diese Sweeps wurden dann zu einem Gesamt-Sweep zusammengeführt und für die Simulation der Drehung verwendet. \\\\
+Als nächstes wurde eine Messung an einer GMR-Probe durchgeführt, die uns ebenfalls fertig zur Verfügung gestellt wurde. Für diese wurde nur eine Messung für die Winkel \(\vartheta=0^{\circ}\) und \(\vartheta=90^{\circ}\) durchgeführt sowie eine Drehung simuliert. Dafür wurden die Sweeps, die bereits im Versuch zum Anisotropen Magnetwiderstand erstellt wurden, wieder verwendet. Die Datenauswertung erfolgte analog. \\\\
+Da die eigentliche Messung vollautomatisch erfolgte und daher nicht so viel Zeit erforderte, wurde uns noch eine dritte, unbekannte Probe zusätzlich zu den regulär durchzuführenden Experimenten ausgehändigt. Für diese wurden mit denselben Sweeps Messungen für die Winkel \(\vartheta=0^{\circ},15^{\circ},30^{\circ},45^{\circ},60^{\circ},75^{\circ},90^{\circ}\) durchgeführt sowie abermals die Drehung simuliert. \\\\
+Zum Abschluss des Versuches wurde noch ein kommerzielles elektronisches Bauelement untersucht. Dafür wurden Messungen bei \(\vartheta=0^{\circ}\) und \(\vartheta=90^{\circ}\) durchgeführt sowie eine Drehung simuliert. \\\\
+Sämtliche so erhaltenen Daten wurden in digitaler Form gespeichert und später mit der Programmiersprache Python grafisch aufbereitet. Die dabei entstandenen Diagramme sind in der Auswertung dargestellt.
 \section{Auswertung}
 \subsection{Teil 1: Erzeugung und Quantifizierung von Magnetfeldern}
 Für die verwendete Hall-Sonde wurde ein Umrechnungsfaktor von \(c = 3 \frac{\mathrm{mT}}{\Omega}\) von Widerstand zu Feld vorgegeben. Damit kann aus den gemessenen Daten jeweils das Magnetfeld ermittelt und mit der theoretischen Vorhersage für eine lange dünne Spule verglichen werden: \\\\
-Luftspule: 
+\underline{\underline{Luftspule:}} 
 \begin{table}[h!]
 \begin{tabular}{|c|c|c|c|c|} 
 \hline
 \(I/ \mathrm{A}\) & \(U / \mathrm{V}\) & \((R \pm \Delta R )/ \Omega\) & \((B_{\mathrm{exp}} \pm \Delta B_{\mathrm{exp}}) / \mathrm{mT}\) & \(B_{\mathrm{theor}}  / \mathrm{mT}\)\\\hline
-1 & 1.69 & \((1.480 \pm 0.005)\) & \((4.440 \pm 0.015)\) & \(5.800\)\\\hline
-2 & 3.39 & \((2.955 \pm 0.005)\) & \((8.865 \pm 0.015)\) & \(11.600\)\\\hline
-3 & 5.09 & \((4.428 \pm 0.005)\) & \((13.284 \pm 0.015)\) & \(17.400\) \\\hline
-4 & 6.66 & \((5.892 \pm 0.005)\) & \((17.676 \pm 0.015)\) & \(23.200\)\\\hline
+1 & 1.69 & \( 1.480 \pm 0.015 \) & \( 4.440 \pm 0.045 \) & 5.800 \\\hline
+2 & 3.39 & \( 2.955 \pm 0.015 \) & \( 8.865 \pm 0.045 \) & 11.600 \\\hline
+3 & 5.09 & \( 4.428 \pm 0.015 \) & \( 13.284 \pm 0.045 \) & 17.400 \\\hline
+4 & 6.66 & \( 5.892 \pm 0.015 \) & \( 17.676 \pm 0.045 \) & 23.199 \\\hline
 \end{tabular}
-\end{table} \\
-Spule mit Eisenkern:
+\end{table} 
+\newpage
+\underline{\underline{Spule mit Eisenkern:}} 
 \begin{table}[h!]
 \begin{tabular}{|c|c|c|c|c|c|} 
 \hline
 \(I/ \mathrm{A}\) & \(U / \mathrm{V}\) & \((R \pm \Delta R )/ \Omega\) & \((B_{\mathrm{exp}} \pm \Delta B_{\mathrm{exp}}) / \mathrm{mT}\)  & \(B_{\mathrm{theor}}  / \mathrm{mT}\) \\\hline
-1 & 1.66 & \((16.537 \pm 0.005)\) & \((49.611 \pm 0.015)\)  & \(64.806\)\\\hline
-2 & 3.32 & \((36.170 \pm 0.005)\) & \((108.510 \pm 0.015)\) & \(141.984\) \\\hline
-3 & 5.01 & \((57.676 \pm 0.005)\) & \((173.028 \pm 0.015)\) & \(226.635\)\\\hline
-4 & 6.70 & \((79.116 \pm 0.005)\) & \((237.348 \pm 0.015)\) & \(311.515\)\\\hline
+1 & 1.66 & \( 16.537 \pm 0.015 \) & \( 49.611 \pm 0.045 \) & 83.368 \\\hline
+2 & 3.32 & \( 36.170 \pm 0.015 \) & \( 108.510 \pm 0.045 \) & 166.737 \\\hline
+3 & 5.01 & \( 57.676 \pm 0.015 \) & \( 173.028 \pm 0.045 \) & 250.105 \\\hline
+4 & 6.70 & \( 79.116 \pm 0.015 \) & \( 237.348 \pm 0.045 \) & 333.474 \\\hline
 \end{tabular}
-\end{table} 
-Für beide experimentellen Werte wurde ein linearer Fit durchgeführt. Die Anstiege entsprechen gemäß
-\[B = \mu_0\mu_{\mathrm{rel.}}\frac{N}{l}\cdot I\]
-dem Anstieg der Geraden. Dividiert man die beiden Anstiege, so kürzen sich sämtliche Geometriefaktoren der Spule und die magnetische Feldkonstante heraus und es bleibt nur das Verhältnis von \(\mu_{\mathrm{Luft}}\) und \(\mu_{\mathrm{Eisen}}\) übrig:
+\end{table} \\\\
+Für beide experimentellen Werte wurde ein linearer Fit durchgeführt. Dabei ergaben sich folgende Parameter der Geraden:
+\begin{align*}
+\underline{\text{Luftspule:}} \quad m &= (4.413 \pm 0.005) \ \frac{\mathrm{mT}}{\mathrm{A}} \\
+B_0 &= (0.035 \pm 0.015) \ \mathrm{mT} \\\\
+\underline{\text{Spule mit Eisenkern:}}\quad m &= (62.8 \pm 1.0) \ \frac{\mathrm{mT}}{\mathrm{A}}\\
+B_0 &= (-14.8 \pm 2.6) \ \mathrm{mT}
+\end{align*}
+Die Anstiege entsprechen gemäß
+\[B = \underbrace{\mu_0\mu_{\mathrm{rel.}}\frac{N}{l}}_{:=m}\cdot I = m\cdot I\]
+einem Faktor \(m= \mu_0\mu_{\mathrm{rel.}}\frac{N}{l}\), der die Geometrie der Spule und die Permeabilität des Füllmaterials enthält. Dividiert man die beiden Anstiege, so kürzen sich sämtliche Geometriefaktoren sowie die magnetische Feldkonstante heraus und es bleibt nur das Verhältnis von \(\mu_{\mathrm{Luft}}\) und \(\mu_{\mathrm{Eisen}}\) übrig:
 \[\frac{m_{\mathrm{Eisen}}}{m_{\mathrm{Luft}}} = \frac{\mu_0\mu_{\mathrm{Eisen}}\frac{N}{l}}{\mu_0\mu_{\mathrm{Luft}}\frac{N}{l}} = \frac{\mu_{\mathrm{Eisen}}}{\mu_{\mathrm{Luft}}} \approx \mu_{\mathrm{Eisen}}\]
 weil die Permeabilität von Luft in sehr guter Näherung gleich eins ist. Mit den ermittelten Anstiegen erhält man:
-\[\mu_{\mathrm{Eisen}} = \frac{63.3820}{4.4094} = 14.3742\]
+\[\mu_{\mathrm{Eisen}} = \frac{62.772 \ \frac{\mathrm{mT}}{\mathrm{A}}}{4.412 \ \frac{\mathrm{mT}}{\mathrm{A}}} = 14.225\]
+Mit dieser Permeabilität wurden dann gemäß \(B = \mu_0\mu_{\mathrm{rel.}}\frac{N}{l}\cdot I \) die theoretischen Werte in der zweiten Tabelle ausgerechnet. Diese enthalten zwar den experimentell ermittelten Wert für \(\mu_{\mathrm{Fe}}\), geben aber den theoretisch zu erwartenden linearen Zusammenhang zwischen \(B\) und \(I\) wieder. Die Unsicherheit der Permeabilität folgt aus der Gauß'schen Fehlerfortpflanzung:
+\begin{align*}
+\Delta\mu = \sqrt{\left(\frac{\partial\mu_{\mathrm{Eisen}}}{\partial m_{\mathrm{Eisen}}}\right)^2 + \left(\frac{\partial\mu_{\mathrm{Eisen}}}{\partial m_{\mathrm{Luft}}}\right)^2} = \sqrt{\left(\frac{\Delta m_{\mathrm{Eisen}}}{m_{\mathrm{Luft}}}\right)^2 + \left( - \frac{m_{\mathrm{Eisen}}\Delta m_{\mathrm{Luft}}}{m_{\mathrm{Luft}}^2}\right)^2} = 3.356
+\end{align*}
+Damit ergibt sich für die relative Permeabilität des Eisens:
+\[\underline{\underline{\mu_{\mathrm{Eisen}} = (14.2 \pm 3.4)}}\]
+Aus der Unsicherheit der Permeabilität folgt dann auch ein Toleranzbereich für die theoretische Vorhersage, da in diese ja der erst zu ermittelnde und daher unsichere Wert \(\mu\) eingeht:
+\[m_{\mathrm{theor}} = \mu_0\mu_{\mathrm{Eisen}}\frac{N}{l} \quad\Longrightarrow\quad \Delta m_{\mathrm{theor}} = \mu_0\Delta\mu_{\mathrm{Eisen}}\frac{N}{l} = 19.5 \frac{\mathrm{mT}}{\mathrm{A}}\]
+In der folgenden Abbildung sind die experimentellen Messwerte und die theoretische Vorhersage für beide Fälle inklusive der Parameter dargestellt: \\\\
+\begin{figure}[h!]\centering
+\includegraphics[width=\textwidth]{Hall_Sonde.png}
+\caption{Messungen der magnetischen Flussdichte mit einer Hallsonde für eine Luftspule und eine Spule mit Eisenkern zur Bestimmung der Permeabilität des Eisens; Vergleich von Theorie und Experiment}
+\end{figure}  \\
+Bei der Luftspule wird der zu erwartende lineare Zusammenhang sehr gut erfüllt; der extrapolierte Wert \(B_0\) ist sehr nahe bei null. Abweichungen gibt es im Anstieg. Das könnte einerseits an der potentiellen Verkippung der Hall-Sonde liegen, andererseits gibt es noch eine ganz andere Ursache: Die Spule muss konstruktionsbedingt einen Luftspalt haben, in den die Hallsonde eingeführt wird. Dadurch gibt es aber prinzipiell eine nicht zu vermeidende Feldstreuung, weil die magnetische Flussdichte im Bereich des Luftspaltes nicht mehr homogen ist. Es ist also zu erwarten, dass die tatsächlich gemessene Flussdichte immer unterhalb der theoretisch berechneten liegt. Die experimentellen Daten spiegeln diesen Befund wieder. \\\\
+Größere Abweichungen bestehen bei der Spule mit Eisenkern. Auch hier ist der Anstieg bei den realen Messdaten kleiner als bei der theoretischen Berechnung, was an der Feldstreuung liegt. Obwohl die gemessenen Werte sehr gut auf einer Geraden liegen, gilt trotzdem nur ein affin-linearer Zusammenhang, weil der extrapolierte Wert \(B_0 = (-14.8 \pm 2.6) \ \mathrm{mT}\) signifikant von null verschieden ist. Eine Erklärung hierfür ist, dass Eisen ein ferromagnetisches Material ist: Da der Versuch bereits von vielen anderen Gruppen durchgeführt wurde, ist es durchaus denkbar, dass der Eisenkern bereits eine nicht-verschwindende Magnetisierung hat, die sich in der Messung bemerkbar macht. \\\\
+Insgesamt kann man sagen, dass die direkte Proportionalität zwischen magnetischer Flussdichte und Stromstärke sehr gut bestätigt werden konnte. Es gibt zwar messbare Abweichungen von theoretischen Werten; diese lassen sich aber schlüssig begründen.
+\subsection{Probe 1:}
+Für die erste Probe wurden Messungen für sieben verschiedene Winkel vorgenommen sowie ein Drehung simuliert. Bei der Winkelmessung wurde jeweils der elektrische Widerstand in Abhängigkeit vom Magnetfeld dargestellt. Für \(\vartheta\neq 0^{\circ},90^{\circ}\) ist in jedem Diagramm jeweils die Abhängigkeit in \(x\)- und \(y\)-Richtung für einen festen Winkel dargestellt. Da bei den Messungen längs der Koordinatenachsen (\(\vartheta = 0^{\circ},90^{\circ}\)) das Feld nur in einer Richtung variiert wird, gibt es hier für jeden Winkel nur ein Diagramm. Hier wurden daher die Messungen für  \(\vartheta = 0^{\circ}\) und \(\vartheta = 90^{\circ}\) gegenübergestellt. Die Winkelmessungen ergaben:
+\newpage
+\begin{figure}[h!]\centering
+\includegraphics[width=\textwidth]{Probe1_0_und_90_Grad.png}
+\caption{Probe 1: Messungen für \(\vartheta=0^{\circ}\) (\(x\)-Richtung) und \(\vartheta=90^{\circ}\) (\(y\)-Richtung)}
+\end{figure} 
+\begin{figure}[h!]\centering
+\includegraphics[width=\textwidth]{Probe1_15_Grad.png}
+\caption{Probe 1: Messung für \(\vartheta=15^{\circ}\), Abhängigkeiten von den \(x\)- und \(y\)-Komponenten von \(B\)}
+\end{figure} 
+\newpage
+\begin{figure}[h!]\centering
+\includegraphics[width=\textwidth]{Probe1_30_Grad.png}
+\caption{Probe 1: Messung für \(\vartheta=30^{\circ}\), Abhängigkeiten von den \(x\)- und \(y\)-Komponenten von \(B\)}
+\end{figure} 
+\begin{figure}[h!]\centering
+\includegraphics[width=\textwidth]{Probe1_45_Grad.png}
+\caption{Probe 1: Messung für \(\vartheta=45^{\circ}\), Abhängigkeiten von den \(x\)- und \(y\)-Komponenten von \(B\)}
+\end{figure} 
+\newpage
+\begin{figure}[h!]\centering
+\includegraphics[width=\textwidth]{Probe1_60_Grad.png}
+\caption{Probe 1: Messung für \(\vartheta=60^{\circ}\), Abhängigkeiten von den \(x\)- und \(y\)-Komponenten von \(B\)}
+\end{figure} 
+\begin{figure}[h!]\centering
+\includegraphics[width=\textwidth]{Probe1_75_Grad.png}
+\caption{Probe 1: Messung für \(\vartheta=75^{\circ}\), Abhängigkeiten von den \(x\)- und \(y\)-Komponenten von \(B\)}
+\end{figure}
+\newpage  
+Hier geht es weiter.
+Bei der Simulation der Drehung wurde nach Programmierung des Sweeps der elektrische Widerstand als Funktion der Zeit gemessen. Die \(t_{\mathrm{Start}}\) und \(t_{\mathrm{End}}\) den Winkeln \(\vartheta = 0^{\circ}\) und \(\vartheta = 360^{\circ}\) entsprechen, kann man die Messzeit in Winkel umrechnen. Es sind beide Zusammenhänge dargestellt: \\\\
+\begin{figure}[h!]\centering
+\includegraphics[width=\textwidth]{Probe1_Drehung.png}
+\caption{Probe 1: Simulation einer vollen Drehung durch lineare Sweeps}
+\end{figure}\\
+Hier geht es wieder weiter.
  % Bibliographie/Literaturverzeichnis
 %    \begin{thebibliography}{9}
 %    \bibitem{gitterfehler}

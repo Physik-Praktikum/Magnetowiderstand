@@ -12,6 +12,7 @@
 \contentsline {section}{\numberline {3}Durchf\IeC {\"u}hrung}{9}{section.3}
 \contentsline {subsection}{\numberline {3.1}Zur Widerstandsmessung}{9}{subsection.3.1}
 \contentsline {subsection}{\numberline {3.2}Teil 1: Erzeugung und Quantifizierung von Magnetfeldern}{11}{subsection.3.2}
-\contentsline {subsection}{\numberline {3.3}Anisotroper Magnetwiderstand}{12}{subsection.3.3}
-\contentsline {section}{\numberline {4}Auswertung}{13}{section.4}
-\contentsline {subsection}{\numberline {4.1}Teil 1: Erzeugung und Quantifizierung von Magnetfeldern}{13}{subsection.4.1}
+\contentsline {subsection}{\numberline {3.3}Versuchsaufbau, Messprogramm und durchgef\IeC {\"u}hrte Experimente}{11}{subsection.3.3}
+\contentsline {section}{\numberline {4}Auswertung}{15}{section.4}
+\contentsline {subsection}{\numberline {4.1}Teil 1: Erzeugung und Quantifizierung von Magnetfeldern}{15}{subsection.4.1}
+\contentsline {subsection}{\numberline {4.2}Probe 1:}{18}{subsection.4.2}
