@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.3.21)  12 JAN 2020 14:16
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.3.21)  12 JAN 2020 19:23
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2320,7 +2320,7 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 144.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 144.
-<Hysteresekurve.png, id=117, 1107.8991pt x 586.1097pt>
+<Hysteresekurve.png, id=127, 1107.8991pt x 586.1097pt>
 File: Hysteresekurve.png Graphic file (type png)
 <use Hysteresekurve.png>
 Package pdftex.def Info: Hysteresekurve.png  used on input line 147.
@@ -2458,7 +2458,7 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 268.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 268.
-<Versuchsaufbau.jpg, id=160, 1487.5575pt x 824.07875pt>
+<Versuchsaufbau.jpg, id=170, 1487.5575pt x 824.07875pt>
 File: Versuchsaufbau.jpg Graphic file (type jpg)
 <use Versuchsaufbau.jpg>
 Package pdftex.def Info: Versuchsaufbau.jpg  used on input line 271.
@@ -2509,7 +2509,7 @@ Package babel Info: Redefining ngerman shorthand "|
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 301.
 [13]
-<Sinus_und_Cosinus_Naeherung.png, id=180, 1107.8991pt x 586.1097pt>
+<Sinus_und_Cosinus_Naeherung.png, id=190, 1107.8991pt x 586.1097pt>
 File: Sinus_und_Cosinus_Naeherung.png Graphic file (type png)
 <use Sinus_und_Cosinus_Naeherung.png>
 Package pdftex.def Info: Sinus_und_Cosinus_Naeherung.png  used on input line 30
@@ -2579,7 +2579,7 @@ Package babel Info: Redefining ngerman shorthand "|
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 372.
 [16]
-<Hall_Sonde.png, id=205, 1107.8991pt x 586.1097pt>
+<Hall_Sonde.png, id=215, 1107.8991pt x 586.1097pt>
 File: Hall_Sonde.png Graphic file (type png)
 <use Hall_Sonde.png>
 Package pdftex.def Info: Hall_Sonde.png  used on input line 377.
@@ -2621,12 +2621,12 @@ Package babel Info: Redefining ngerman shorthand "|
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 385.
  [18]
-<Probe1_0_und_90_Grad.png, id=216, 1107.8991pt x 586.1097pt>
+<Probe1_0_und_90_Grad.png, id=226, 1107.8991pt x 586.1097pt>
 File: Probe1_0_und_90_Grad.png Graphic file (type png)
 <use Probe1_0_und_90_Grad.png>
 Package pdftex.def Info: Probe1_0_und_90_Grad.png  used on input line 387.
 (pdftex.def)             Requested size: 418.25555pt x 221.26624pt.
-<Probe1_15_Grad.png, id=217, 1107.8991pt x 586.1097pt>
+<Probe1_15_Grad.png, id=227, 1107.8991pt x 586.1097pt>
 File: Probe1_15_Grad.png Graphic file (type png)
 <use Probe1_15_Grad.png>
 Package pdftex.def Info: Probe1_15_Grad.png  used on input line 391.
@@ -2640,12 +2640,12 @@ Package babel Info: Redefining ngerman shorthand "|
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 394.
  [19 <./Probe1_0_und_90_Grad.png> <./Probe1_15_Grad.png>]
-<Probe1_30_Grad.png, id=227, 1107.8991pt x 586.1097pt>
+<Probe1_30_Grad.png, id=237, 1107.8991pt x 586.1097pt>
 File: Probe1_30_Grad.png Graphic file (type png)
 <use Probe1_30_Grad.png>
 Package pdftex.def Info: Probe1_30_Grad.png  used on input line 396.
 (pdftex.def)             Requested size: 418.25555pt x 221.26624pt.
-<Probe1_45_Grad.png, id=228, 1107.8991pt x 586.1097pt>
+<Probe1_45_Grad.png, id=238, 1107.8991pt x 586.1097pt>
 File: Probe1_45_Grad.png Graphic file (type png)
 <use Probe1_45_Grad.png>
 Package pdftex.def Info: Probe1_45_Grad.png  used on input line 400.
@@ -2659,12 +2659,12 @@ Package babel Info: Redefining ngerman shorthand "|
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 403.
  [20 <./Probe1_30_Grad.png> <./Probe1_45_Grad.png>]
-<Probe1_60_Grad.png, id=237, 1107.8991pt x 586.1097pt>
+<Probe1_60_Grad.png, id=247, 1107.8991pt x 586.1097pt>
 File: Probe1_60_Grad.png Graphic file (type png)
 <use Probe1_60_Grad.png>
 Package pdftex.def Info: Probe1_60_Grad.png  used on input line 405.
 (pdftex.def)             Requested size: 418.25555pt x 221.26624pt.
-<Probe1_75_Grad.png, id=238, 1107.8991pt x 586.1097pt>
+<Probe1_75_Grad.png, id=248, 1107.8991pt x 586.1097pt>
 File: Probe1_75_Grad.png Graphic file (type png)
 <use Probe1_75_Grad.png>
 Package pdftex.def Info: Probe1_75_Grad.png  used on input line 409.
@@ -2678,25 +2678,17 @@ Package babel Info: Redefining ngerman shorthand "|
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 412.
  [21 <./Probe1_60_Grad.png> <./Probe1_75_Grad.png>]
-<Probe1_Drehung.png, id=247, 1107.8991pt x 586.1097pt>
+<Probe1_Drehung.png, id=257, 1538.74875pt x 572.1375pt>
 File: Probe1_Drehung.png Graphic file (type png)
 <use Probe1_Drehung.png>
 Package pdftex.def Info: Probe1_Drehung.png  used on input line 427.
-(pdftex.def)             Requested size: 418.25555pt x 221.26624pt.
+(pdftex.def)             Requested size: 418.25555pt x 155.51807pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 424--431
 
  []
 
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 431.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 431.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 431.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 431.
-[22 <./Probe1_Drehung.png>]
+
 Overfull \hbox (9.14606pt too wide) detected at line 431
 \OML/cmm/m/it/10.95 R\OT1/cmr/m/n/10.95 (\OML/cmm/m/it/10.95 \OT1/cmr/m/n/10.9
 5 ) = \OML/cmm/m/it/10.95 R[] \OMS/cmsy/m/n/10.95 ^^@ \OT1/cmr/m/n/10.95 (\OML/
@@ -2705,39 +2697,173 @@ cmm/m/it/10.95 R[] \OMS/cmsy/m/n/10.95 ^^@ \OML/cmm/m/it/10.95 R[]\OT1/cmr/m/n/
  [] \OT1/cmr/m/n/10.95 = \OML/cmm/m/it/10.95 R[] []
  []
 
-<Probe1_Drehung_vs_Erwartung.png, id=255, 1107.8991pt x 586.1097pt>
+<Probe1_Drehung_vs_Erwartung.png, id=258, 1538.74875pt x 572.1375pt>
 File: Probe1_Drehung_vs_Erwartung.png Graphic file (type png)
 <use Probe1_Drehung_vs_Erwartung.png>
 Package pdftex.def Info: Probe1_Drehung_vs_Erwartung.png  used on input line 43
 4.
-(pdftex.def)             Requested size: 418.25555pt x 221.26624pt.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 459.
+(pdftex.def)             Requested size: 418.25555pt x 155.51807pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 431--459
+Underfull \hbox (badness 10000) in paragraph at lines 431--438
 
  []
 
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 459.
+(babel)             in language  on input line 438.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 459.
+(babel)             in language  on input line 438.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 459.
+(babel)             in language  on input line 438.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 459.
-[23 <./Probe1_Drehung_vs_Erwartung.png>]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 459.
+(babel)             in language  on input line 438.
+[22 <./Probe1_Drehung.png>]
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 438.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 438.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 440.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 440.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 440.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 440.
+ [23 <./Probe1_Drehung_vs_Erwartung.png>]
+<Probe2_0_und_90_Grad.png, id=272, 1107.8991pt x 586.1097pt>
+File: Probe2_0_und_90_Grad.png Graphic file (type png)
+<use Probe2_0_und_90_Grad.png>
+Package pdftex.def Info: Probe2_0_und_90_Grad.png  used on input line 442.
+(pdftex.def)             Requested size: 376.42744pt x 199.1405pt.
+<Probe2_Drehung.png, id=273, 1538.74875pt x 593.21625pt>
+File: Probe2_Drehung.png Graphic file (type png)
+<use Probe2_Drehung.png>
+Package pdftex.def Info: Probe2_Drehung.png  used on input line 456.
+(pdftex.def)             Requested size: 376.42744pt x 145.11748pt.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 460.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 460.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 460.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 460.
+ [24 <./Probe2_0_und_90_Grad.png> <./Probe2_Drehung.png>]
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 460.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 460.
+<Probe3_0_und_90_Grad.png, id=283, 1107.8991pt x 586.1097pt>
+File: Probe3_0_und_90_Grad.png Graphic file (type png)
+<use Probe3_0_und_90_Grad.png>
+Package pdftex.def Info: Probe3_0_und_90_Grad.png  used on input line 463.
+(pdftex.def)             Requested size: 418.25555pt x 221.26624pt.
+<Probe3_15_Grad.png, id=284, 1107.8991pt x 586.1097pt>
+File: Probe3_15_Grad.png Graphic file (type png)
+<use Probe3_15_Grad.png>
+Package pdftex.def Info: Probe3_15_Grad.png  used on input line 467.
+(pdftex.def)             Requested size: 418.25555pt x 221.26624pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 461--470
+
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 470.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 470.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 470.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 470.
+[25 <./Probe3_0_und_90_Grad.png>]
+<Probe3_30_Grad.png, id=292, 1107.8991pt x 586.1097pt>
+File: Probe3_30_Grad.png Graphic file (type png)
+<use Probe3_30_Grad.png>
+Package pdftex.def Info: Probe3_30_Grad.png  used on input line 472.
+(pdftex.def)             Requested size: 418.25555pt x 221.26624pt.
+<Probe3_45_Grad.png, id=293, 1107.8991pt x 586.1097pt>
+File: Probe3_45_Grad.png Graphic file (type png)
+<use Probe3_45_Grad.png>
+Package pdftex.def Info: Probe3_45_Grad.png  used on input line 476.
+(pdftex.def)             Requested size: 418.25555pt x 221.26624pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 479.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 479.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 479.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 479.
+[26 <./Probe3_15_Grad.png> <./Probe3_30_Grad.png>]
+<Probe3_60_Grad.png, id=302, 1107.8991pt x 586.1097pt>
+File: Probe3_60_Grad.png Graphic file (type png)
+<use Probe3_60_Grad.png>
+Package pdftex.def Info: Probe3_60_Grad.png  used on input line 481.
+(pdftex.def)             Requested size: 418.25555pt x 221.26624pt.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 484.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 484.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 484.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 484.
+ [27 <./Probe3_45_Grad.png> <./Probe3_60_Grad.png>]
+<Probe3_75_Grad.png, id=312, 1107.8991pt x 586.1097pt>
+File: Probe3_75_Grad.png Graphic file (type png)
+<use Probe3_75_Grad.png>
+Package pdftex.def Info: Probe3_75_Grad.png  used on input line 486.
+(pdftex.def)             Requested size: 418.25555pt x 221.26624pt.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 499.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 499.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 499.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 499.
+ [28 <./Probe3_75_Grad.png>]
+<Probe3_Drehung.png, id=320, 1538.74875pt x 529.98pt>
+File: Probe3_Drehung.png Graphic file (type png)
+<use Probe3_Drehung.png>
+Package pdftex.def Info: Probe3_Drehung.png  used on input line 501.
+(pdftex.def)             Requested size: 418.25555pt x 144.05884pt.
+<Probe3_Drehung_vs_AMR_Erwartung.png, id=321, 1538.74875pt x 518.93875pt>
+File: Probe3_Drehung_vs_AMR_Erwartung.png Graphic file (type png)
+<use Probe3_Drehung_vs_AMR_Erwartung.png>
+Package pdftex.def Info: Probe3_Drehung_vs_AMR_Erwartung.png  used on input lin
+e 506.
+(pdftex.def)             Requested size: 418.25555pt x 141.05762pt.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 531.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 531.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 531.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 531.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 531.
+ [29 <./Probe3_Drehung.png> <./Probe3_Drehung_vs_AMR_Erwartung.png>]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 531.
  (./MR.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 459.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 459.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 531.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 531.
 Package rerunfilecheck Info: File `MR.out' has not changed.
-(rerunfilecheck)             Checksum: 84F7DD50944DCCB52DC3C208CD83A56B;1367.
+(rerunfilecheck)             Checksum: A1E938F8E8FF5B656CD923F6E2408CE1;1540.
  ) 
 Here is how much of TeX's memory you used:
- 23534 strings out of 492982
- 435450 string characters out of 6134896
+ 23606 strings out of 492982
+ 436989 string characters out of 6134896
  597596 words of memory out of 5000000
- 26783 multiletter control sequences out of 15000+600000
+ 26825 multiletter control sequences out of 15000+600000
  550786 words of font info for 81 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  41i,13n,51p,10416b,921s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2757,10 +2883,10 @@ are/texmf/fonts/type1/public/cm-super/sfsl1095.pfb></usr/share/texmf/fonts/type
 1/public/cm-super/sfsx1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sf
 sx1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsx1440.pfb></usr/sha
 re/texmf/fonts/type1/public/cm-super/sfsx2074.pfb>
-Output written on MR.pdf (23 pages, 1382579 bytes).
+Output written on MR.pdf (29 pages, 2420538 bytes).
 PDF statistics:
- 340 PDF objects out of 1000 (max. 8388607)
- 271 compressed objects within 3 object streams
- 75 named destinations out of 1000 (max. 500000)
- 197 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 411 PDF objects out of 1000 (max. 8388607)
+ 315 compressed objects within 4 object streams
+ 95 named destinations out of 1000 (max. 500000)
+ 263 words of extra memory for PDF output out of 10000 (max. 10000000)
 
