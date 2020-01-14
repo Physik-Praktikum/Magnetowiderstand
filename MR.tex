@@ -160,7 +160,6 @@ Die rote Kurve wird danach erneut umlaufen. Die Neukurve beschreibt dabei nur di
 \item \underline{weichmagnetisches Material:} kleine Koerzitivfeldstärke und damit leicht ummagnetisierbar, sehr schlanke und deutlich s-förmige Hysteresekurve
 \item \underline{hartmagnetisches Material:} hohe Koerzitivfeldstärke und damit schwer ummagnetisierbar, sehr breite und nahezu rechteckige Hysteresekurve
 \end{itemize}
-In der folgenden Abbildung sind typische Hystereskurven hart- und weichmagnetischer Werkstoffe gegenübergestellt:
 \subsection{Magnetoresistive Effekte}
 Im folgenden werden die für diesen Versuch bedeutsamen Magnetowiderstandseffekte erläutert. Diese sind der Hall-Effekt, der Anisotrope Magnetwiderstand und der Riesenmagnetwiderstand.
 \subsubsection{Der Hall-Effekt}
@@ -173,14 +172,14 @@ wobei \(B\) die magnetische Flussdichte, \(I\) die Stromstärke und \(d\) die Di
 \end{itemize}
 Der Vollständigkeit halber sei erwähnt, dass man den Hall-Effekt auch aus der linearisierten Boltzmann-Transportgleichung gewinnen kann. Eine zusätzliche Behandlung der quantenmechanischen Effekte im Festkörper ergibt dann zusätzlich eine ganze Reihe weiterer verwandter Phänomene, wie etwa den Quanten-Hall-Effekt, Righi-Leduc-Effekt und weitere.
 \subsubsection{Der Anisotrope Magnetwiderstand (AMR)}
-Der Anisotrope Magnetwiderstand (engl.: anisotropic magnetic resistance, kurz AMR) war historisch gesehen der erste magnetoresistive Effekt, der entdeckt wurde. William \textsc{Thomson} beschrieb ihn bereits 1857. Wie der Name schon sagt, rührt dieser Effekt von der Anisotropie bestimmter Materialien her: Bei betragsmäßig konstanter Magnetisierung des Materials ergibt sich eine Abhängigkeit des elektrischen Widerstandes vom Winkel zwischen Magnetisierung und Strom gemäß
+Der Anisotrope Magnetwiderstand (engl.: anisotropic magnetic resistance, kurz AMR) war historisch gesehen der erste magnetoresistive Effekt, der entdeckt wurde. William \textsc{Thomson} beschrieb ihn bereits 1857. Bei betragsmäßig konstanter Magnetisierung des Materials ergibt sich eine Abhängigkeit des elektrischen Widerstandes vom Winkel zwischen Magnetisierung und Strom gemäß
 \[R = R_{\parallel} - (R_{\parallel} - R_{\perp})\sin^2\alpha\quad\text{mit}\quad \alpha = \sphericalangle (\vec{j},\vec{M})\in\left[-\frac{\pi}{2},\frac{\pi}{2}\right]\]
 Dabei ist \(R_{\parallel}\) der Widerstand für \(\alpha=0\), d.h. \(\vec{j}\parallel\vec{M}\) und \(R_{\perp}\) der Widerstand für \(\alpha=\pm\frac{\pi}{2}\), d.h. \(\vec{j}\perp\vec{M}\).
 Diese Abhängigkeit vom Winkel kann dadurch verstanden werden, dass nicht-kugelsymmetrische Orbitale wie z.B. die 3d-Orbitale durch die Magnetisierung eine Drehung erfahren. Dadurch ändert sich der Streuquerschnitt von Ladungen am Atom beim Durchgang durch den Leiter je nach Orientierung der Orbitale relativ zum Strom und somit auch der elektrische Widerstand. Die Größe des Anisotropen Magnetwiderstandes ist üblicherweise definiert durch
 \[\frac{\Delta R}{R} := \frac{R_{\parallel} - R_{\perp}}{R_{\parallel}}\]
 Oft gibt man diesen Wert auch prozentual an, indem man noch mit 100 multipliziert. Der AMR tritt bei vielen ferromagnetischen Materialien in Dünnschichten auf und liegt größenordnungsmäßig bei etwa \(\frac{\Delta R}{R} \sim 1\hdots 4\%\).
 \subsubsection{Der Riesenmagnetwiderstand (GMR)}
-Beim Riesenmagnetwiderstand (engl.: giant magnetic resistance, kurz GMR) handelt es sich um ein relativ neues Phänomen, das 1988 von Peter \textsc{Grünberg} und Albert \textsc{Fert} entdeckt wurde. Der Effekt tritt in sogenannten Heterostrukturen auf, bei denen dünne ferromagnetische Schichten und nichtmagnetische Schichten immer abwechselnd übereinander gestapelt werden. Die ferromagnetischen Schichten können dabei eine parallele oder eine antiparallele Magnetisierung haben. Es zeigt sich nun, dass ein Elektron beim Übergang von einer Schicht in die nächste unterschiedlich gestreut wird, je nachdem wie sein Spin relativ zur Magnetisierung der Schicht steht. Man kann nun folgende zwei Fälle unterscheiden:
+Beim Riesenmagnetwiderstand (engl.: giant magnetic resistance, kurz GMR) handelt es sich um ein relativ neues Phänomen, das 1988 von Peter \textsc{Grünberg} und Albert \textsc{Fert} entdeckt wurde. Der Effekt tritt in sogenannten Heterostrukturen auf, bei denen zwei dünne ferromagnetische Schichten durch eine nichtmagnetische Schicht getrennt sind. Die ferromagnetischen Schichten können dabei eine parallele oder eine antiparallele Magnetisierung haben. Es zeigt sich nun, dass ein Elektron beim Übergang von einer Schicht in die nächste unterschiedlich gestreut wird, je nachdem wie sein Spin relativ zur Magnetisierung der Schicht steht. Man kann nun folgende zwei Fälle unterscheiden:
 \begin{itemize}
 \item Angenommen die Schichten sind parallel magnetisiert. Wenn sich ein Elektron in einer der Schichten gut ausbreiten kann, weil sein Spin günstig eingestellt ist, dann kann es das auch in der anderen Schicht. Wenn der Spin dagegen ungünstig eingestellt ist und es sich schlecht in der ersten Schicht ausbreiten kann, so gilt das auch für die zweite.
 \item Wenn die Schichten dagegen antiparallel magnetisiert sind, dann ist es egal wie der Spin des Elektrons eingestellt ist, weil es entweder an der ersten oder an der zweiten Schicht stark gestreut wird.
@@ -226,9 +225,9 @@ ergibt. Für annähernd rechteckige dünne Schichten reicht also eine einzige Me
 Diese Umrechnung wurde automatisiert vom Messgerät mit durchgeführt. Voraussetzung sind hierbei Homogenität und Isotropie der Probe sowie eine dünne Schicht. Diese Methode hat folgende Vorteile gegenüber einer Zweipunktmessung:
 \begin{itemize}
 \item Sie ist, abgesehen von der Schichtdicke, unabhängig von der Geometrie der Probe. Damit gehen Fertigungstolerenazen hinsichtlich der Form nicht in das Ergebnis ein.
-\item Es wird die tatsächlich am interessierenden Widerstand abfallende Spannung gemessen. Dadurch entfallen parasitäre Widerstände von z.B. Kabeln. Das ist hier sehr wichtig, weil die gemessenen Widerstände sehr klein sind.
+\item Es wird die tatsächlich am interessierenden Widerstand abfallende Spannung gemessen. Dadurch entfallen parasitäre Widerstände von z.B. Kabeln. Das ist hier sehr wichtig, weil die gemessenen Widerstände bzw. Widerstandsänderungen sehr klein sind.
 \end{itemize} 
-\subsection{Teil 1: Erzeugung und Quantifizierung von Magnetfeldern}
+\subsection{Erzeugung und Quantifizierung von Magnetfeldern}
 Im ersten Teil wurden zwei gleichartige Spulen mit je \(N=300\) Windungen und je \(L=6.5 \ \mathrm{cm}\) zu einer großen Spule mit Luftspalt zusammengesteckt. Der Luftspalt diente zur Einführung einer bereitliegenden Hall-Sonde, mit der sich das Magnetfeld im Inneren der Spule messen ließ. Aus der Elektrodynamik erwartet man für eine hinreichend lange dünne Spule ein annähernd homogenes Magnetfeld im Inneren der Spule. Die Hall-Sonde wurde mit einem Keithley K2000 Multimeter über eine Breakoutbox verbunden. Das Multimeter zeigte dann den Hall-Widerstand der Sonde an, der ebenfalls durch eine präzise Vierpunktmessung ermittelt wurde. Es wurden folgende Schritte durchgeführt:
 \begin{enumerate}
 \item Nullmessung ohne Feld: \(R_0 = (0.005 \pm 0.005) \ \Omega\) \\
@@ -269,7 +268,7 @@ Eine wesentliche Unsicherheit besteht vor allem darin, dass die Hall-Sonde exakt
 Die Probe zur Messung des AMR-Effektes soll in diesem Versuch normalerweise selbst präpariert werden. Unser Betreuer hat uns allerdings direkt eine fertig vorbereitete Probe zur Verfügung gestellt, sodass die Präparation entfiel. Es handelte sich um eine \(d=10 \ \mathrm{nm}\) dicke Schicht aus Permalloy, die mit Leitsilber auf eine Platine geklebt und an den Ecken mit vier dünnen Golddrähten leitend mit dieser verbunden wurde. Die Platine wurde in einen Sockel eingesetzt. Der Sockel wurde mit der Breakoutbox verbunden um den Widerstand messen zu können. Um den Sockel befanden sich vier identische Spulen, die entsprechend der folgenden Abbildung angeordnet waren: \\\\
 \begin{figure}[h!]\centering
 \includegraphics[width=\textwidth]{Versuchsaufbau.jpg}
-\caption{Experimenteller Aufbau zur Messung des GMR- und des AMR-Effekts: In der Mitte befindet sich die Probe in einem Sockel. Die vier Spulen erzeugen ein annähernd homogenes Magnetfeld, dass längs jeder Richtung symmetrisch um den Wert \(B=0\) eingestellt werden kann.}
+\caption{Experimenteller Aufbau zur Messung des GMR- und des AMR-Effekts: In der Mitte befindet sich die Probe in einem Sockel. Die vier Spulen erzeugen ein annähernd homogenes Magnetfeld, das längs jeder Richtung symmetrisch um den Wert \(B=0\) eingestellt werden kann. Abbildung entnommen aus \cite{Versuchsanleitung}}
 \end{figure} \\
 Zwei sich gegenüberliegende Spulen erzeugen dabei jeweils ein antiparalleles Magnetfeld. Falls durch alle vier Spulen der gleiche Strom fließt, verschwindet daher das Magnetfeld im Zentrum, wo sich der Sockel mit Probe befindet. Fließen jedoch durch zwei gegenüberliegende Spulen verschiedene Ströme, ergibt sich ein resultierendes Feld, das in Richtung des stärkeren Feldes zeigt. Da die Maxwell-Gleichungen linear sind, überlagern sich die Felder in \(x\)- und \(y\)-Richtung störungsfrei, sodass man das Magnetfeld in beiden Richtungen symmetrisch durch den Wert \(B=0\) fahren kann. Will man längs der \(x\)-Richtung symmetrisch durch null fahren, lässt man eine der Spulen konstant auf  \(I_1^{(x)}=2 \ \mathrm{A}\) und variiert in der anderen Spule die Stromstärke \(I_2^{(x)} = 0\hdots 4 \ \mathrm{A}\). Die beiden Spulen in \(y\)-Richtung bleiben konstant auf \(I_1^{(y)} = I_2^{(y)} = 2 \ \mathrm{A}\). Durch den Übergang zu Polarkoordinaten ist es möglich, Formeln für die Reichweiten von \(x\) und \(y\) bei einem symmetrischen Durchlauf durch \(B=0\) längs einer beliebig gedrehten Achse zu ermitteln. Diese lauten:
 \begin{align*}
@@ -326,7 +325,7 @@ Da die eigentliche Messung vollautomatisch erfolgte und daher nicht so viel Zeit
 Zum Abschluss des Versuches wurde noch ein kommerzielles elektronisches Bauelement untersucht. Dafür wurden Messungen bei \(\vartheta=0^{\circ}\) und \(\vartheta=90^{\circ}\) durchgeführt sowie eine Drehung simuliert. \\\\
 Sämtliche so erhaltenen Daten wurden in digitaler Form gespeichert und später mit der Programmiersprache Python grafisch aufbereitet. Die dabei entstandenen Diagramme sind in der Auswertung dargestellt.
 \section{Auswertung}
-\subsection{Teil 1: Erzeugung und Quantifizierung von Magnetfeldern}
+\subsection{Erzeugung und Quantifizierung von Magnetfeldern}
 Für die verwendete Hall-Sonde wurde ein Umrechnungsfaktor von \(c = 3 \frac{\mathrm{mT}}{\Omega}\) von Widerstand zu Feld vorgegeben. Damit kann aus den gemessenen Daten jeweils das Magnetfeld ermittelt und mit der theoretischen Vorhersage für eine lange dünne Spule verglichen werden: \\\\
 \underline{\underline{Luftspule:}} 
 \begin{table}[h!]
@@ -381,48 +380,37 @@ Bei der Luftspule wird der zu erwartende lineare Zusammenhang sehr gut erfüllt;
 Größere Abweichungen bestehen bei der Spule mit Eisenkern. Auch hier ist der Anstieg bei den realen Messdaten kleiner als bei der theoretischen Berechnung, was an der Feldstreuung liegt. Obwohl die gemessenen Werte sehr gut auf einer Geraden liegen, gilt trotzdem nur ein affin-linearer Zusammenhang, weil der extrapolierte Wert \(B_0 = (-14.8 \pm 2.6) \ \mathrm{mT}\) signifikant von null verschieden ist. Eine Erklärung hierfür ist, dass Eisen ein ferromagnetisches Material ist: Da der Versuch bereits von vielen anderen Gruppen durchgeführt wurde, ist es durchaus denkbar, dass der Eisenkern bereits eine nicht-verschwindende Magnetisierung hat, die sich in der Messung bemerkbar macht. \\\\
 Insgesamt kann man sagen, dass die direkte Proportionalität zwischen magnetischer Flussdichte und Stromstärke sehr gut bestätigt werden konnte. Es gibt zwar messbare Abweichungen von theoretischen Werten; diese lassen sich aber schlüssig begründen.
 \subsection{1. Teilversuch: AMR-Probe}
-Für die erste Probe wurden Messungen für sieben verschiedene Winkel vorgenommen sowie ein Drehung simuliert. Bei der Winkelmessung wurde jeweils der elektrische Widerstand in Abhängigkeit vom Magnetfeld dargestellt. Für \(\vartheta\neq 0^{\circ},90^{\circ}\) ist in jedem Diagramm jeweils die Abhängigkeit in \(x\)- und \(y\)-Richtung für einen festen Winkel dargestellt. Da bei den Messungen längs der Koordinatenachsen (\(\vartheta = 0^{\circ},90^{\circ}\)) das Feld nur in einer Richtung variiert wird, gibt es hier für jeden Winkel nur ein Diagramm. Hier wurden daher die Messungen für  \(\vartheta = 0^{\circ}\) und \(\vartheta = 90^{\circ}\) gegenübergestellt. Zur besseren Lesbarkeit sind Vorlauf und Rücklauf in zwei verschiedenen Farben dargestellt. Die Winkelmessungen ergaben:
+Für die erste Probe wurden Messungen für sieben verschiedene Winkel vorgenommen sowie ein Drehung simuliert. Bei der Winkelmessung wurde jeweils der elektrische Widerstand in Abhängigkeit vom Magnetfeld dargestellt. Für \(\vartheta\neq 0^{\circ},90^{\circ}\) ist in jedem Diagramm jeweils die Abhängigkeit in \(x\)- und \(y\)-Richtung für einen festen Winkel dargestellt. Da bei den Messungen längs der Koordinatenachsen (\(\vartheta = 0^{\circ},90^{\circ}\)) das Feld nur in einer Richtung variiert wird, gibt es hier für jeden Winkel nur ein Diagramm. Hier wurden daher die Messungen für  \(\vartheta = 0^{\circ}\) und \(\vartheta = 90^{\circ}\) gegenübergestellt. Zur besseren Lesbarkeit sind Vorlauf und Rücklauf in zwei verschiedenen Farben dargestellt. Die Winkelmessungen für \(0^{\circ},45^{\circ}\) und \(90^{\circ}\) ergaben:
 \newpage
 \begin{figure}[h!]\centering
 \includegraphics[width=\textwidth]{Probe1_0_und_90_Grad.png}
 \caption{AMR-Probe: Messungen für \(\vartheta=0^{\circ}\) (\(x\)-Richtung, linkes Bild) und \(\vartheta=90^{\circ}\) \\ (\(y\)-Richtung, rechtes Bild)}
 \end{figure} 
 \begin{figure}[h!]\centering
-\includegraphics[width=\textwidth]{Probe1_15_Grad.png}
-\caption{AMR-Probe: Messung für \(\vartheta=15^{\circ}\), Abhängigkeiten von den \(x\)- und \(y\)-Komponenten des \(\vec{B}\)-Feldes}
-\end{figure} 
-\newpage
-\begin{figure}[h!]\centering
-\includegraphics[width=\textwidth]{Probe1_30_Grad.png}
-\caption{AMR-Probe: Messung für \(\vartheta=30^{\circ}\), Abhängigkeiten von den \(x\)- und \(y\)-Komponenten des \(\vec{B}\)-Feldes}
-\end{figure} 
-\begin{figure}[h!]\centering
 \includegraphics[width=\textwidth]{Probe1_45_Grad.png}
 \caption{AMR-Probe: Messung für \(\vartheta=45^{\circ}\), Abhängigkeiten von den \(x\)- und \(y\)-Komponenten des \(\vec{B}\)-Feldes}
 \end{figure} 
-\newpage
+Die Abbildungen zeigen das typische Verhalten von AMR-Bauteilen: Falls Strom und Magnetisierung parallel oder antiparallel liegen, ist der Widerstand minimal. Das ist jeweils in den Randbereichen der Fall, weil dort das externe Magnetfeld \(\vec{B}\) betragsmäßig so groß ist, dass die Magnetisierung \(\vec{M}\) innerhalb des Materials praktisch in dieselbe Richtung wie \(\vec{B}\) zeigt. Wenn \(B\rightarrow 0\) geht, bleibt eine gewisse Restmagnetisierung erhalten, die beim weiteren Durchfahren von \(B\) gemäß der Hysteresekurve aufgehoben wird. \(\vec{M}\) ist dann kurzzeitig der Nullvektor, der definitionsgemäß senkrecht auf jedem Vektor, also auch auf \(\vec{j}\) steht. Der Widerstand wird dann maximal. Beim weiteren Durchfahren von \(\vec{B}\) wird \(\vec{M}\) dann wieder parallel oder antiparallel zu \(\vec{j}\) ausgerichtet und der Widerstand wird minimal. Beim Rücklauf wiederholt sich dieser Prozess spiegelsymmetrisch, weil die Hysteresekurve punktsymmetrisch zum Ursprung liegt. \\\\
+In diesem Teil des Versuches haben wir aufgrund eines Missverständnisses die Sweeps für die anderen Winkel nicht korrekt programmiert. Das Magnetfeld wurde deshalb nicht wie geplant symmetrisch längs einer definierten Richtung durch die Probe gefahren. Es ergaben sich dementsprechend auch keine sinnvollen Ergebnisse, wie man etwa an dieser Fehlmessung für \(\vartheta=15^{\circ}\) sieht: \\\\
 \begin{figure}[h!]\centering
-\includegraphics[width=\textwidth]{Probe1_60_Grad.png}
-\caption{AMR-Probe: Messung für \(\vartheta=60^{\circ}\), Abhängigkeiten von den \(x\)- und \(y\)-Komponenten des \(\vec{B}\)-Feldes}
-\end{figure} 
-\begin{figure}[h!]\centering
-\includegraphics[width=\textwidth]{Probe1_75_Grad.png}
-\caption{AMR-Probe: Messung für \(\vartheta=75^{\circ}\), Abhängigkeiten von den \(x\)- und \(y\)-Komponenten des \(\vec{B}\)-Feldes}
-\end{figure}
+\includegraphics[width=\textwidth]{Probe1_15_Grad.png}
+\caption{Fehlmessung für \(\vartheta=15^{\circ}\)}
+\end{figure} \\
+In der \(\vartheta = 45^{\circ}\)-Messung wurde das Magnetfeld zwar wie geplant in der richtigen Richtung variiert, allerdings nicht ganz symmetrisch durch null, weshalb das Diagramm auch nicht ganz symmetrisch ist. Das typische AMR-Verhalten ist trotzdem eindeutig sichtbar. Der AMR-Effekt wurde an der dritten Probe mit korrekt programmierten Sweeps genauer untersucht. Für die erste Probe möchten wir uns deshalb auf die drei Winkel \(\vartheta=0^{\circ},45^{\circ},90^{\circ}\) beschränken. 
 \newpage  
 Eine erste Möglichkeit zur Charakterisierung der Probe bietet das im Theorieteil besprochene Verhältnis \(\frac{\Delta R}{R}\), welches die Größe des magnetoresistiven Effektes beschreibt. Dieses wurde aus den verschiedenen Diagrammen numerisch mit Python ermittelt und nimmt für verschiedene Winkel folgende Werte an: \\
 \begin{table}[h!]\centering
-\begin{tabular}{|c|c|c|c|c|c|c|c|}
+\begin{tabular}{|c|c|c|c|}
 \hline
-\(\vartheta / ^{\circ}\)  & 0 & 15 & 30 & 45 & 60 & 75 & 90 \\\hline
-\(\frac{\Delta R}{R} / \%\) Vorlauf & 2.92 & 0.79 & 0.98 & 2.96 & 0.73 & 0.57 & 3.00 \\\hline
-\(\frac{\Delta R}{R} / \%\) Rücklauf & 2.87 & 0.74 & 1.01 & 3.04 & 0.66 & 0.58 & 2.74 \\\hline
+\(\vartheta / ^{\circ}\)  & 0  & 45  & 90 \\\hline
+\(\frac{\Delta R}{R} / \%\) Vorlauf & 2.92 & 2.96  & 3.00 \\\hline
+\(\frac{\Delta R}{R} / \%\) Rücklauf & 2.87 & 3.04  & 2.74 \\\hline
 \end{tabular}
 \end{table} \\
 Der relativ kleine Wert von nur wenigen Prozent ist typisch für eine AMR-Probe.
 Bei der Simulation der Drehung wurde nach Programmierung des Sweeps der elektrische Widerstand als Funktion der Zeit gemessen. Da die Zeiten \(t_{\mathrm{Start}}\) und \(t_{\mathrm{End}}\) den Winkeln \(\vartheta = 0^{\circ}\) und \(\vartheta = 360^{\circ}\) entsprechen, kann man die Messzeit gemäß 
 \[\vartheta(t) = 360^{\circ} \cdot \frac{t}{t_{\mathrm{End}}}\]
-in Winkel umrechnen. Es sind beide Zusammenhänge dargestellt: \\\\
+in Winkel umrechnen. \\\\
 \begin{figure}[h!]\centering
 \includegraphics[width=\textwidth]{Probe1_Drehung.png}
 \caption{AMR-Probe: Simulation einer vollen Drehung durch lineare Sweeps}
@@ -456,37 +444,51 @@ Die relative Widerstandsänderung ist diesmal signifikant höher als beim AMR-Ef
 \includegraphics[width = 0.9\textwidth]{Probe2_Drehung.png}
 \caption{GMR-Probe: Simulation einer vollen Drehung durch lineare Sweeps}
 \end{figure} \\
-Hier gibt es einen deutlichen Unterschied zum AMR-Effekt: Der Widerstand ist über weite Bereiche praktisch konstant und ändert sich nur in einem verhältnismäßig schmalen Intervall, dort aber sehr stark. Dieses Verhalten ist typisch für den GMR-Effekt an einem Spinventil: Einerseits unterscheiden sich die Widerstände für parallele und antiparallele Magnetisierung der Schichten stark, was sich hier in einem  Wechsel zwischen zwei Werten zeigt. Andererseits führt das unterschiedliche Hysteresverhalten dazu, dass erst die eine und dann später die zweite Schicht ummagnetisiert wird. Bei GMR-Proben wird also ein Bereich mit kleinerem Widerstand, dann ein starkes Anwachsen des Widerstandes mit einem Plateau und ein anschließender Rückgang des Widerstandes erwartet. Die Länge des Plataeus hängt davon ab, wie stark sich die Koerzitivfeldstärken der verschiedenen Materialien unterscheiden: Bei einem hart- und einem weichmagnetischen Material wird ein langes Plateau erwartet; bei Materialien mit sehr ähnlichen Koerzitivfeldstärken dagegen ein sehr kurzes, dass eher wie ein Peak aussieht. Hier handelt es sich also wahrscheinlich um letzteren Fall.
-\subsection{3. Teilversuch: Unbekannte Probe}
+Hier gibt es einen deutlichen Unterschied zum AMR-Effekt: Der Widerstand ist über weite Bereiche praktisch konstant und ändert sich nur in einem verhältnismäßig schmalen Intervall, dort aber sehr stark. Auch dieses Verhalten ist typisch für den GMR-Effekt.
+\subsection{3. Teilversuch: AMR-Probe}
 Diesmal wurden wieder sieben verschiedene Winkel gemessen. Die Darstellung und Farbgebung bleibt wie bisher. Die Winkelmessungen ergaben: \\\\
 \begin{figure}[h!]\centering
 \includegraphics[width=\textwidth]{Probe3_0_und_90_Grad.png}
-\caption{Unbekannte Probe: Messungen für \(\vartheta=0^{\circ}\) (\(x\)-Richtung, linkes Bild) und \(\vartheta=90^{\circ}\) \\ (\(y\)-Richtung, rechtes Bild)}
+\caption{AMR-Probe: Messungen für \(\vartheta=0^{\circ}\) (\(x\)-Richtung, linkes Bild) und \(\vartheta=90^{\circ}\) \\ (\(y\)-Richtung, rechtes Bild)}
 \end{figure} 
 \begin{figure}[h!]\centering
 \includegraphics[width=\textwidth]{Probe3_15_Grad.png}
-\caption{Unbekannte Probe: Messung für \(\vartheta=15^{\circ}\), Abhängigkeiten von den \(x\)- und \(y\)-Komponenten des \(\vec{B}\)-Feldes}
+\caption{AMR-Probe: Messung für \(\vartheta=15^{\circ}\), Abhängigkeiten von den \(x\)- und \(y\)-Komponenten des \(\vec{B}\)-Feldes}
 \end{figure} 
 \newpage
 \begin{figure}[h!]\centering
 \includegraphics[width=\textwidth]{Probe3_30_Grad.png}
-\caption{Unbekannte Probe: Messung für \(\vartheta=30^{\circ}\), Abhängigkeiten von den \(x\)- und \(y\)-Komponenten des \(\vec{B}\)-Feldes}
+\caption{AMR-Probe: Messung für \(\vartheta=30^{\circ}\), Abhängigkeiten von den \(x\)- und \(y\)-Komponenten des \(\vec{B}\)-Feldes}
 \end{figure} 
 \begin{figure}[h!]\centering
 \includegraphics[width=\textwidth]{Probe3_45_Grad.png}
-\caption{Unbekannte Probe: Messung für \(\vartheta=45^{\circ}\), Abhängigkeiten von den \(x\)- und \(y\)-Komponenten des \(\vec{B}\)-Feldes}
+\caption{AMR-Probe: Messung für \(\vartheta=45^{\circ}\), Abhängigkeiten von den \(x\)- und \(y\)-Komponenten des \(\vec{B}\)-Feldes}
 \end{figure} 
 \newpage
 \begin{figure}[h!]\centering
 \includegraphics[width=\textwidth]{Probe3_60_Grad.png}
-\caption{Unbekannte Probe: Messung für \(\vartheta=60^{\circ}\), Abhängigkeiten von den \(x\)- und \(y\)-Komponenten des \(\vec{B}\)-Feldes}
+\caption{AMR-Probe: Messung für \(\vartheta=60^{\circ}\), Abhängigkeiten von den \(x\)- und \(y\)-Komponenten des \(\vec{B}\)-Feldes}
 \end{figure} 
 \newpage
 \begin{figure}[h!]\centering
 \includegraphics[width=\textwidth]{Probe3_75_Grad.png}
-\caption{Unbekannte Probe: Messung für \(\vartheta=75^{\circ}\), Abhängigkeiten von den \(x\)- und \(y\)-Komponenten des \(\vec{B}\)-Feldes}
+\caption{AMR-Probe: Messung für \(\vartheta=75^{\circ}\), Abhängigkeiten von den \(x\)- und \(y\)-Komponenten des \(\vec{B}\)-Feldes}
 \end{figure}  
-Man erhält diesmal für große Bereiche des \(\vec{B}\)-Feldes einen verrauschten, aber relativ konstanten Widerstand, der um \(B = 0 \ \mathrm{mT}\) ein sehr ausgeprägtes Maximum hat. Zur weiteren Charakterisierung geben wir die prozentuale Änderung des Widerstandes an:
+Auch hier gibt es ein sehr ausgeprägte Maximum um \(B=0 \ \mathrm{mT}\). Vor- und Rücklaufpeak sind hierbei allerdings nicht immer gleich hoch. Insbesondere bei \(\vartheta=45^{\circ}\) und \(\vartheta= 60^{\circ}\) ist der Rücklaufpeak wesentlich ausgeprägter als der Vorlaufpeak. Bei \(\vartheta= 0^{\circ}\) und \(\vartheta=30^{\circ}\) ist der Vorlaufpeak geringfügig größer als der Rücklaufpeak. Bei \(\vartheta=15^{\circ}\) und \(\vartheta=75^{\circ}\) sind beide Peaks in etwa gleich groß. Dieses Verhalten kann wie folgt erklärt werden: Wir betrachten beispielhaft die Metallgitter von Nickel und Eisen. Nickel bildet ein kubisch-flächenzentriertes Gitter (fcc), wogegen Eisen ein kubisch-raumzentriertes Gitter (bcc) bildet. \\\\
+\begin{figure}[h!]\centering
+\includegraphics[width=0.9\textwidth]{fcc_und_bcc_Gitter.jpg}
+\caption{fcc-Gitter von Nickel (links) und bcc-Gitter von Eisen (rechts)}
+\end{figure} 
+\newpage
+Die Ummagnetisierung erfolgt dabei nicht entlang aller Achsen gleich: Eisen lässt sich in (100)-Richtung leicht, in (111)-Richtung dagegen sehr schlecht ummagnetisieren. Beim Nickel ist es gerade umgekehrt. Dieses Phänomen nennt man \textbf{magnetische Anisotropie}. Wenn man jetzt das Feld gerade längs einer dieser beiden Richtungen variiert, wird eine der beiden Komponenten schon bei kleiner Koerzitivfeldstärke ummagnetisiert; die andere aber möglicherweise gar nicht, weil man viel höhere Feldstärken braucht. In diesem Fall ist die Magnetisierung der einen Komponente nahezu konstant, während die Magnetisierung der anderen Komponente ihre Länge ändert und auch umklappt. Der prinzipielle Verlauf sieht dann so aus: \\\\
+\begin{figure}[h!]\centering
+\includegraphics[width=0.5\textwidth]{Magnetische_Anisotropie.png}
+\caption{Zur magnetischen Anisotropie: Ein Material behält weitgehend seine Magnetisierung (rot), während das andere ummagnetisiert wird (blau).}
+\end{figure} \\
+Im hier dargestellten Bild wird im Vorlauf die Gesamtmagnetisierung bei \(B=0\) zwar minimal, bleibt dort aber stets von null verschieden. Das ergibt im Diagramm einen Peak um \(B=0\). Erst im Rücklauf wird die Gesamtmagnetisierung ganz aufgehoben; dort ist dann der Peak signifikant höher. In den Abbildungen zu \(\vartheta=45^{\circ}\) und \(\vartheta= 60^{\circ}\) lässt sich beobachten, dass der Rücklaufpeak einerseits deutlich höher ist und andererseits neben der null liegt, während der Vorlaufpeak ziemlich genau bei null liegt. Das stützt die Hypothese, dass sich das Verhalten auf die magnetische Anisotropie zurückführen lässt. \\
+Die erste Probe bestand aus Permalloy, einer Legierung mit etwa \(80 \%\) Nickelanteil und etwa \(20 \%\) Eisenanteil. Im Permalloy sind die Mischungsverhältnisse gerade so gewählt, dass sich die Effekte der magnetischen Anisotropie weitgehend aufheben. Die hier vorliegende Probe besteht also wahrscheinlich aus einem anderen Material. \\\\
+Zur weiteren Charakterisierung geben wir die prozentuale Änderung des Widerstandes an: 
+\newpage
 \begin{table}[h!]\centering
 \begin{tabular}{|c|c|c|c|c|c|c|c|}
 \hline
@@ -494,38 +496,79 @@ Man erhält diesmal für große Bereiche des \(\vec{B}\)-Feldes einen verrauscht
 \(\frac{\Delta R}{R} / \% \) Vorlauf & 0.12 & 0.07 & 0.07 & 0.08 & 0.12 & 0.08 & 0.07 \\\hline
 \(\frac{\Delta R}{R} / \% \) Rücklauf & 0.08 & 0.08 & 0.06 & 0.17 & 0.26 & 0.09 & 0.07 \\\hline
 \end{tabular}
-\end{table}
-Trotz des markanten Peaks ist die prozentuale Änderung relativ klein, was einen GMR-Effekt zwar nicht grundsätzlich ausschließt, aber eher für einen AMR-Effekt spricht. Die Simulation der Drehung ergab abschließend folgende Abhängigkeit vom Drehwinkel: 
-\newpage
+\end{table} 
+Trotz des markanten Peaks ist die prozentuale Änderung relativ klein. Man erkennt auch hier wieder, dass bei bestimmten Winkeln ein deutlicher Unterschied zwischen Vor- und Rücklaufpeak besteht. Die Simulation der Drehung ergab abschließend folgende Abhängigkeit vom Drehwinkel:  \\\\
 \begin{figure}[h!]\centering
 \includegraphics[width=\textwidth]{Probe3_Drehung.png}
 \caption{Unbekannte Probe: Simulation einer vollen Drehung durch lineare Sweeps}
-\end{figure} 
+\end{figure}  \\
 Trotz des verrauschten Kurvenverlaufs lässt sich der Trend gut erkennen. Zur besseren Charakterisierung wurde ein Kurvenfit mit einer Funktion, wie sie für ein AMR-Bauelement zu erwarten wäre, durchgeführt: \\
 \begin{figure}[h!]\centering
 \includegraphics[width=\textwidth]{Probe3_Drehung_vs_AMR_Erwartung.png}
 \caption{Unbekannte Probe: Vergleich der simulierten Drehung mit dem Verlauf eines AMR-Bauelements}
 \end{figure} \\
-Die gute Übereinstimmung zwischen Theorie und Experiment untermauert die Hypothese, dass es sich um ein AMR-Bauteil handelt.
+Auch diese Darstellung liefert eine gute Übereinstimmung zwischen Theorie und Experiment.
+\subsection{4. Teilversuch: Untersuchung eines kommerziellen Bauteils}
+Zum Abschluss präsentieren wir die Ergebnisse für das kommerzielle Bauteil. Laut Datenblatt des Herstellers handelt es sich hierbei um einen analogen TMR-Sensor vom Typ RR111 der Firma \(\textbf{RedRock}^{\textbf{TM}}\). Dieser Sensor basiert auf dem magnetischen Tunnelwiderstand (engl.: tunneling magnetoesistance, TMR), daher der Name. Solche Sensoren bestehen aus zwei dünnen ferromagnetischen Schichten, die durch eine dünne Isolierschicht getrennt sind. Falls die Isolierschicht genügend dünn ist, kann sie von Elektronen durchtunnelt werden. Durch ein externe Magnetfeld kann ähnlich wie beim Spinventil eingestellt werden, ob die Schichten parallel oder antiparallel magnetisiert sind. Die Tunnelwahrscheinlichkeit ist dabei wesentlich höher, wenn die Schichten parallel magnetisiert sind und sehr klein, wenn sie antiparallel magnetisiert sind. Die Winkelmessung an diesem Bauteil ergab: \\
+\begin{figure}[h!]\centering
+\includegraphics[width=\textwidth]{Probe4_0_und_90_Grad.png}
+\caption{Magnetischer Tunnelwiderstand: Messungen für \(\vartheta=0^{\circ}\) (\(x\)-Richtung, linkes Bild) und \(\vartheta=90^{\circ}\)  (\(y\)-Richtung, rechtes Bild)}
+\end{figure} \\
+Bei Magnetfeldern längs der \(y\)-Achse nimmt der Widerstand zwei Plateauwerte an, zwischen denen er in einem engen Bereich um \(B=0\) wechselt. In diesem Zwischenbereich ist das Verhalten bemerkenswert linear und zeigt außerdem keine Hystereseffekte. In diesem schmalen Bereich lässt sich der Widerstand durch sehr kleine Variationen von \(B\) stark ändern. Da keine Hysterese auftritt, ist der Effekt vollständig reversibel. Damit kann man einen sehr empfindlichen Sensor realisieren, der sehr kleine Schwankungen von \(|\vec{B}|\) detektieren kann. Andererseits kann man durch größere Änderungen der Flussdichte den Widerstand zwischen zwei Werten ändern und damit einen kontaklosen Schalter realisieren. Bei der anschließenden Drehung der magnetischen Flussdichte wurde folgendes Verhalten gemessen:\\
+\begin{figure}[h!]\centering
+\includegraphics[width=\textwidth]{Probe4_Drehung.png}
+\caption{Magnetischer Tunnelwiderstand: Simulation einer vollen Drehung durch lineare Sweeps}
+\end{figure} 
+Auch hier ergibt sich ein ähnliches Verhalten feststellen, allerdings in Abhängigkeit vom Winkel. Damit kann man Sensoren realisieren, die im Bereich um \(\vartheta=180^{\circ}\) sehr kleine Änderungen der Richtung von \(\vec{B}\) detektieren können. Andererseits wäre auch ein Schalter denkbar, der durch Umklappen des Magnetfeldes ausgelöst wird. \\\\
+Darüber hinaus lässt sich feststellen, dass das gemessene Verhalten des Sensors ausgezeichnet mit den Angaben des Herstellers übereinstimmt. Dies spricht für eine sehr gute Reproduzierbarkeit und hohe Qualität bei der Fertigung.
  % Bibliographie/Literaturverzeichnis
-%    \begin{thebibliography}{9}
-%    \bibitem{gitterfehler}
-%    \emph{Gitterfehler},
-%%    \url{https://de.wikipedia.org/wiki/Gitterfehler#Nulldimensionale_Gitterfehler},
- %   9.\,Dez.~2019.
- %   \bibitem{wiki:Praktischer_Strahlenschutz}
- %   \emph{Schematische Darstellung von Stufenversetzungen (2D)},
- %   \url{https://de.wikipedia.org/wiki/Versetzung_(Materialwissenschaft)#/media/Datei:Versetzung_im_2D-Kristall.svg},
- %   12.\,Dez.~2019.
- %\bibitem{gitterfehler}
- %   \emph{Schematische Darstellung von Stufenversetzungen (3D)},
- %%   \url{https://de.wikipedia.org/wiki/Versetzung_(Materialwissenschaft)#/media/Datei:Dislocation_edge_d2.svgr},
-  %  12.\,Dez.~2019.
-%\bibitem{gitterfehler}
- %   \emph{Schematische Darstellung von Klein- bzw- Großwinkelkorngrenzen},
- %   \url{https://docplayer.org/71200148-Technische-universitaet-graz.html},
- %   12.\,Dez.~2019.
- %   \end{thebibliography}
-%
+   \begin{thebibliography}{9}
+ \bibitem{Magnetische Anisotropie}
+   \emph{Peter Wellmann: "Materialien der Elektronik und Energietechnik", S. 241, Zugriff über},
+    \url{https://books.google.de/books?id=wcd5DQAAQBAJ&pg=PA241&lpg=PA241&dq=permalloy+kristallstruktur&source=bl&ots=CmslcNoCbN&sig=ACfU3U0SfEA8lTPSiAF7SnjkV7kvP00_7Q&hl=de&sa=X&ved=2ahUKEwjO0cPkwoPnAhWCYsAKHS4_BYkQ6AEwAnoECAkQAQ#v=onepage&q=permalloy\%20kristallstruktur&f=false},
+   6.\,Jan.~2020.
+   \bibitem{magn.Anisotropie,wiki}
+   \emph{zur magnetischen Anisotropie},
+   \url{https://de.wikipedia.org/wiki/Magnetische_Anisotropie},
+    6.\,Jan.~2020.
+ \bibitem{magn.Härte}
+    \emph{hart- und weichmagnetische Materialien},
+    \url{https://www.tf.uni-kiel.de/matwis/amat/mw_for_et/kap_7/backbone/r7_3_1.html},
+    1.\,Jan.~2020.
+\bibitem{TMR}
+    \emph{TMR-Effekt},
+    \url{https://en.wikipedia.org/wiki/Tunnel_magnetoresistance},
+    5.\,Jan.~2020.
+\bibitem{AMR}
+    \emph{AMR-Effekt},
+    \url{https://de.wikipedia.org/wiki/Anisotroper_magnetoresistiver_Effekt},
+    5.\,Jan.~2020.
+\bibitem{GMR}
+    \emph{GMR-Effekt},
+    \url{https://de.wikipedia.org/wiki/GMR-Effekt },
+    5.\,Jan.~2020.
+\bibitem{Magnetowiderstand}
+    \emph{Magnetoresistive Effekte},
+    \url{https://de.wikipedia.org/wiki/Magnetoresistiver_Effekt},
+    5.\,Jan.~2020.
+\bibitem{RedRock}
+    \emph{Datenblatt des RedRock-TMR-Bauteils, zu finden auf:},
+    \url{https://media.cotorelay.com/wp-content/uploads/2018/02/15100645/RedRock-111TMR-Datasheet-Rev05012018.pdf},
+    5.\,Jan.~2020.
+\bibitem{Van-der-Pauw}
+    \emph{Vierpunktmessung nach Van der Pauw:},
+    \url{https://de.wikipedia.org/wiki/Van-der-Pauw-Messmethode},
+    5.\,Jan.~2020.
+\bibitem{Buch1}
+    \emph{Siegfried Hunklinger, "Festkörperphysik", Oldenbourg Verlag}
+\bibitem{Buch2}
+    \emph{Rudolf Gross, Achim Marx, "Festkörperphysik", Oldenbourg Verlag}
+\bibitem{Buch3}
+    \emph{Erwin Riedel, Christoph Janiak, "\ Anorganische Chemie", De Gruyter}
+\bibitem{Versuchsanleitung}
+	\emph{Versuchsanleitung des Fortgeschrittenenpraktikums: FP-Magnetostransport Theorie.pdf}
+\bibitem{Platzanleitung}
+	\emph{Platzanleitung des Fortgeschrittenenpraktikums: FP-Magnetostransport Platzanleitung.pdf}	
+\end{thebibliography}    
 % ----- BEISPIELTEXT ENDE -----
 \end{document}

@@ -1,20 +1,21 @@
 \babel@toc {ngerman}{}
-\contentsline {section}{\numberline {1}Ziel und Versuchsprinzip}{2}{section.1}
-\contentsline {section}{\numberline {2}Theoretische Grundlagen}{2}{section.2}
-\contentsline {subsection}{\numberline {2.1}Magnetismus - Grundlagen}{2}{subsection.2.1}
-\contentsline {subsubsection}{\numberline {2.1.1}Begriffe der Elektrodynamik in Materie}{2}{subsubsection.2.1.1}
-\contentsline {subsubsection}{\numberline {2.1.2}Magnetische Permeabilit\IeC {\"a}t und Arten des Magnetismus}{3}{subsubsection.2.1.2}
-\contentsline {subsubsection}{\numberline {2.1.3}Magnetische Hysterese}{4}{subsubsection.2.1.3}
-\contentsline {subsection}{\numberline {2.2}Magnetoresistive Effekte}{6}{subsection.2.2}
-\contentsline {subsubsection}{\numberline {2.2.1}Der Hall-Effekt}{6}{subsubsection.2.2.1}
-\contentsline {subsubsection}{\numberline {2.2.2}Der Anisotrope Magnetwiderstand (AMR)}{7}{subsubsection.2.2.2}
-\contentsline {subsubsection}{\numberline {2.2.3}Der Riesenmagnetwiderstand (GMR)}{7}{subsubsection.2.2.3}
-\contentsline {section}{\numberline {3}Durchf\IeC {\"u}hrung}{9}{section.3}
-\contentsline {subsection}{\numberline {3.1}Zur Widerstandsmessung}{9}{subsection.3.1}
-\contentsline {subsection}{\numberline {3.2}Teil 1: Erzeugung und Quantifizierung von Magnetfeldern}{11}{subsection.3.2}
-\contentsline {subsection}{\numberline {3.3}Versuchsaufbau, Messprogramm und durchgef\IeC {\"u}hrte Experimente}{11}{subsection.3.3}
-\contentsline {section}{\numberline {4}Auswertung}{15}{section.4}
-\contentsline {subsection}{\numberline {4.1}Teil 1: Erzeugung und Quantifizierung von Magnetfeldern}{15}{subsection.4.1}
-\contentsline {subsection}{\numberline {4.2}1. Teilversuch: AMR-Probe}{18}{subsection.4.2}
+\contentsline {section}{\numberline {1}Ziel und Versuchsprinzip}{3}{section.1}
+\contentsline {section}{\numberline {2}Theoretische Grundlagen}{3}{section.2}
+\contentsline {subsection}{\numberline {2.1}Magnetismus - Grundlagen}{3}{subsection.2.1}
+\contentsline {subsubsection}{\numberline {2.1.1}Begriffe der Elektrodynamik in Materie}{3}{subsubsection.2.1.1}
+\contentsline {subsubsection}{\numberline {2.1.2}Magnetische Permeabilit\IeC {\"a}t und Arten des Magnetismus}{4}{subsubsection.2.1.2}
+\contentsline {subsubsection}{\numberline {2.1.3}Magnetische Hysterese}{5}{subsubsection.2.1.3}
+\contentsline {subsection}{\numberline {2.2}Magnetoresistive Effekte}{7}{subsection.2.2}
+\contentsline {subsubsection}{\numberline {2.2.1}Der Hall-Effekt}{7}{subsubsection.2.2.1}
+\contentsline {subsubsection}{\numberline {2.2.2}Der Anisotrope Magnetwiderstand (AMR)}{8}{subsubsection.2.2.2}
+\contentsline {subsubsection}{\numberline {2.2.3}Der Riesenmagnetwiderstand (GMR)}{8}{subsubsection.2.2.3}
+\contentsline {section}{\numberline {3}Durchf\IeC {\"u}hrung}{10}{section.3}
+\contentsline {subsection}{\numberline {3.1}Zur Widerstandsmessung}{10}{subsection.3.1}
+\contentsline {subsection}{\numberline {3.2}Erzeugung und Quantifizierung von Magnetfeldern}{12}{subsection.3.2}
+\contentsline {subsection}{\numberline {3.3}Versuchsaufbau, Messprogramm und durchgef\IeC {\"u}hrte Experimente}{12}{subsection.3.3}
+\contentsline {section}{\numberline {4}Auswertung}{16}{section.4}
+\contentsline {subsection}{\numberline {4.1}Erzeugung und Quantifizierung von Magnetfeldern}{16}{subsection.4.1}
+\contentsline {subsection}{\numberline {4.2}1. Teilversuch: AMR-Probe}{19}{subsection.4.2}
 \contentsline {subsection}{\numberline {4.3}2.Teilversuch: GMR-Probe}{23}{subsection.4.3}
-\contentsline {subsection}{\numberline {4.4}3. Teilversuch: Unbekannte Probe}{25}{subsection.4.4}
+\contentsline {subsection}{\numberline {4.4}3. Teilversuch: AMR-Probe}{25}{subsection.4.4}
+\contentsline {subsection}{\numberline {4.5}4. Teilversuch: Untersuchung eines kommerziellen Bauteils}{31}{subsection.4.5}
